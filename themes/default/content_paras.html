@@ -1,0 +1,64 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+
+        <!--#include file="article-head.html"-->
+        
+        <h2 class="title am-margin-top-lg">
+            <!--<span class="num">01</span>-->
+            <span class="numContent">{$contentInfo.title}</span>
+        </h2>
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+
+                <div class="am-margin-vertical-sm">{$contentInfo.content}</div>
+
+                <ul class="am-avg-sm-1 am-avg-md-2 am-padding-top-lg am-padding-bottom-xl bottomIndex">
+                    <li>
+                        <div class="am-text-truncate am-text-sm am-padding-right-sm"><span>上一篇：</span>
+                            <!--if{empty($prevInfo['aurl'])}-->
+                            <a class="am-link-muted ">暂无</a>
+                            <!--{else}-->
+                            <a href="{$prevInfo.aurl}" class="am-link-muted">{$prevInfo.title}</a>
+                            <!--{/if}-->
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="am-text-truncate am-padding-left-lg am-text-sm"><span>下一篇：</span>
+                            <!--if{empty($nextInfo['aurl'])}-->
+                            <a class="am-link-muted am-text-truncate">暂无</a>
+                            <!--{else}-->
+                            <a href="{$nextInfo.aurl}" class="am-link-muted am-text-truncate">{$nextInfo.title}</a>
+                            <!--{/if}-->
+                        </div>
+                    </li>
+                </ul>
+
+                <!--<p class="am-margin-bottom-xs"><b>留言框：</b></p>-->
+                <!--<div id="comment"></div>-->
+
+            </div>
+
+            <div class="nav-hot-list">
+                <!--#include file="hot_list.html"-->
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

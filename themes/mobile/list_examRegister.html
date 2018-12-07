@@ -1,0 +1,38 @@
+﻿<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+
+<section class="content-image-gallery am-padding-sm">
+
+    <!--#include file="hot_list.html"-->
+
+    <h3 class="noEn">{$categoryInfo.name}</h3>
+
+    <ul class="am-avg-sm-1 am-margin-top-sm">
+        <!--list{app="DuxCms" label="contentList" class_id=16  limit=102}-->
+        <li>
+            <a href="{$list.aurl}" class="am-margin-bottom-sm">
+                <div class="am-img-responsive lazy" data-original="{$list.image}" title="{$list.title}"></div>
+
+                <article>
+                    <p class="am-margin-top-sm am-margin-bottom-0 am-text-sm am-text-truncate">{$list.title}</p>
+                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-xs am-text-truncate">{$list.description}</p>
+                </article>
+            </a>
+
+        </li>
+        <!--{/list}-->
+    </ul>
+
+</section>
+
+
+
+<!--#include file="ending.html"-->
+

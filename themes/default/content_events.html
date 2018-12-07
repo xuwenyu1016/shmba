@@ -1,0 +1,45 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+        <h2 class="title am-margin-top-lg">
+            <!--<span class="num">01</span>-->
+            <span class="numContent">{$contentInfo.title}</span>
+        </h2>
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+
+                <div class="am-margin-vertical-sm">
+                    <div data-am-widget="slider" class="am-slider am-slider-b1 eventsSlider" data-am-slider='{&quot;controlNav&quot;:false}' >
+                        <ul class="am-slides">
+                            {$contentInfo.content}
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="formBox">
+
+                <!--#include file="sideBarForm.html"-->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

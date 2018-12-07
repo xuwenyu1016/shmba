@@ -1,0 +1,400 @@
+﻿
+<!--#include file="head_index.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2017-11-10/16.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<style>
+
+    .written-plan ul li article{display: flex;align-items: center;}
+    .written-plan ul li article img{width: 25%;}
+    .written-plan ul li article div{width: calc( 100% - 25% );}
+    .written-plan ul li article div p:first-child{display: flex;align-items: center;}
+
+    .written-plan ul li article{display: flex;align-items: center;}
+    .written-plan ul li article div p:first-child{display: flex;align-items: center;}
+    .written-plan ul li article div p:first-child img{height: 19px;width: 19px;}
+
+    .written-class{background-color: #eff4f8;}
+    .written-class .am-accordion{margin: 1rem 0 0 0;}
+    .written-class .am-accordion .am-accordion-title{padding-top: 0;}
+    .written-class .am-accordion .am-accordion-title:before{display: none;}
+    .written-class .am-accordion .am-accordion-title article{display: flex;align-items: center;color: #333;}
+    .written-class .am-accordion .am-accordion-item{background-color: #f6f8fb;border: 2px solid white;border-radius: 10px;
+        padding: 10px;position: relative;margin-bottom: 10px;}
+
+    .written-class .am-accordion .am-accordion-title article img{width: 100px;}
+    .written-class .am-accordion .am-accordion-title article div{width: calc( 100% - 100px );}
+    .written-class .am-accordion .am-accordion-title .written-class-title{margin: 0 auto 5px auto;}
+    .written-class .am-accordion .am-accordion-title article div .span-btn span{display: block;color: white;width: 120px;height: 24px;line-height: 24px;
+        text-align: center;background-color: #02b57d;font-size: 1.2rem;}
+    .written-class .am-accordion .am-accordion-item .span-btn span.show{display: block;margin-top: .2rem;}
+    .written-class .am-accordion .am-accordion-item .span-btn span.hide{display: none;}
+    .written-class .am-accordion .am-accordion-item p.am-link-muted{display: none;}
+    .written-class .am-accordion .am-accordion-item.am-active span.show{display: none;}
+    .written-class .am-accordion .am-accordion-item.am-active .span-btn{position: absolute;bottom: 0;width: 100%;left: 0;}
+    .written-class .am-accordion .am-accordion-item.am-active span.hide{display: block;margin: 0 auto;}
+
+    .written-class .am-accordion .am-accordion-item.am-active p.am-link-muted{display: block;}
+
+    .written-class .am-accordion .am-accordion-item .am-accordion-content{padding-left: 0;padding-right: 0;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table{border-collapse: collapse;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table thead{background-color: #1b3a7f;color: white;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table thead th{text-align: center;font-weight: bold;border: 1px solid #ddd;font-size: 1.4rem;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table thead th:nth-child(1),
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table thead th:nth-child(2){width: 30%;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table thead th:nth-child(3){width: 40%;}
+    .written-class .am-accordion .am-accordion-item .am-accordion-bd table tbody td{text-align: center;font-size: 1.2rem;border: 1px solid #ddd;vertical-align: middle;}
+
+    .written-class .checkMore{width: 120px;height: 24px;line-height: 24px;background-color: #434c6f;color: white;
+        padding: 0;margin-top: 10px;text-align: center;}
+</style>
+
+<section class="written-describe am-padding-horizontal-sm">
+
+    <h3 class="noBorder noEn">MBA联考笔试</h3>
+
+    <img src="/upload/2017-11-10/17.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+</section>
+
+<section class="written-plan am-padding-horizontal-sm am-padding-top-xs">
+
+    <h3 class="noBorder noEn">说的就是你</h3>
+
+    <ul class="am-margin-vertical-sm am-avg-sm-2">
+        <li class="am-padding-bottom-xs">
+            <article>
+                <img src="/upload/2017-11-10/3.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+
+                <div class="am-padding-left-xs">
+                    <p class="am-margin-vertical-0 am-text-xs"><img src="/upload/2017-11-10/7.png" class="" alt="{$categoryInfo.name}" /> <b class="am-padding-left-xs">没基础</b></p>
+                    <p class="am-margin-vertical-0 am-text-xs">教材知识点全面精讲，夯实基础</p>
+                </div>
+            </article>
+        </li>
+        <li class="am-padding-bottom-xs">
+            <article>
+                <img src="/upload/2017-11-10/4.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+                <div class="am-padding-left-xs">
+                    <p class="am-margin-vertical-0 am-text-xs"><img src="/upload/2017-11-10/7.png" class="" alt="{$categoryInfo.name}" /> <b class="am-padding-left-xs">无计划</b></p>
+                    <p class="am-margin-vertical-0 am-text-xs">定制学习计划，把握学习节奏，科学备考</p>
+                </div>
+            </article>
+        </li>
+        <li>
+            <article>
+                <img src="/upload/2017-11-10/5.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+                <div class="am-padding-left-xs">
+                    <p class="am-margin-vertical-0 am-text-xs"><img src="/upload/2017-11-10/7.png" class="" alt="{$categoryInfo.name}" /> <b class="am-padding-left-xs">想突破</b></p>
+                    <p class="am-margin-vertical-0 am-text-xs">高校备考MBA，职业规划更清晰</p>
+                </div>
+            </article>
+        </li>
+        <li>
+            <article>
+                <img src="/upload/2017-11-10/6.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+                <div class="am-padding-left-xs">
+                    <p class="am-margin-vertical-0 am-text-xs"><img src="/upload/2017-11-10/7.png" class="" alt="{$categoryInfo.name}" /> <b class="am-padding-left-xs">时间少</b></p>
+                    <p class="am-margin-vertical-0 am-text-xs">每科约100课时，每天只要坚持学习2小时</p>
+                </div>
+            </article>
+        </li>
+    </ul>
+
+</section>
+
+<section class="written-class am-padding-horizontal-sm am-padding-bottom-sm am-padding-top-xs">
+
+    <h3 class="noBorder noEn lineHigh-sm">完整的“挑战高校”课程体系</h3>
+    <p class="am-link-muted am-margin-vertical-xs am-text-center">我们重新定义MBA联考备考</p>
+
+    <div data-am-widget="accordion" class="am-accordion am-accordion-basic" data-am-accordion='{ "multiple": true }'>
+        <dl class="am-accordion-item am-active">
+            <dt class="am-accordion-title">
+                <p class="written-class-title am-text-sm am-margin-vertical-xs"><b>【预热班】：精准定位你的实际水平，实现针对性辅导计划</b></p>
+
+                <article>
+                    <img src="/upload/2017-11-10/8.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+
+                    <div class="am-padding-left-xs">
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程时间：12月至次年1月</b></p>
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程费用：3980元，数学8课时+英语16课时</b></p>
+                        <p class="span-btn"><span class="show">展开详细内容</span><span class="hide">收起详细内容</span></p>
+
+                    </div>
+                </article>
+            </dt>
+            <dd class="am-accordion-bd am-collapse am-in">
+                <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+                <div class="am-accordion-content">
+
+                    <p class="am-margin-vertical-0 am-text-xs am-link-muted">适合人群：毕业8年及上 | 备考小白 | 备考时间少 | 数学、英语基础薄弱 | 想一次性通过MBA联考</p>
+                    <p class="am-margin-vertical-0 am-text-xs am-link-muted">课程描述：帮助大家了解MBA专业报考流程、院校选择、考试大纲、各科复习方法及华章相关培训课程介绍。</p>
+
+                    <p class="am-margin-vertical-xs am-text-center"><b>开班安排</b></p>
+                    <table class="am-table">
+                        <thead>
+                        <tr>
+                            <th>校区</th>
+                            <th>开班时间</th>
+                            <th>校区地址</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>长宁预热一班</td>
+                            <td>2018年11月18日</td>
+                            <td>长宁区定西路1300号业余大学2号楼</td>
+                        </tr>
+                        <tr>
+                            <td>徐汇预热一班</td>
+                            <td>2018年12月16日</td>
+                            <td>徐汇区曹溪北路88号圣爱大厦7楼706</td>
+                        </tr>
+                        <tr>
+                            <td>浦东预热一班</td>
+                            <td>2018年12月29日</td>
+                            <td>浦东源深路158号上海海事职业技术学院内</td>
+                        </tr>
+                        <tr>
+                            <td>杨浦预热一班</td>
+                            <td>2019年1月5日</td>
+                            <td>杨浦区控江路2063号五环大厦西座3楼第一教室</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </dd>
+        </dl>
+        <dl class="am-accordion-item">
+            <dt class="am-accordion-title">
+                <p class="written-class-title am-text-sm am-margin-vertical-xs"><b>【基础班】：稳固、扎实各科基本功，深度了解MBA联考科目特点</b></p>
+                <article>
+                    <img src="/upload/2017-11-10/9.png" class="am-img-responsive" alt="{$categoryInfo.name}" />
+
+                    <div class="am-padding-left-xs">
+
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程时间：2月至5月</b></p>
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程费用：7880元，数学52课时+英语52课时+逻辑4课时+写作4课时</b></p>
+
+
+                        <p class="span-btn"><span class="show">展开详细内容</span><span class="hide">收起详细内容</span></p>
+                    </div>
+                </article>
+            </dt>
+            <dd class="am-accordion-bd am-collapse ">
+                <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+                <div class="am-accordion-content">
+                    <div class="am-accordion-content">
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">适合人群：毕业5年及上 | 备考时间少 | 基础不扎实 | 没有明确目标院校 | 想拿奖学金</p>
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">课程描述：从零起步，对考试内容做全面细致的讲解，温故知新，循序渐进，夯实基础。</p>
+                        <p class="am-margin-vertical-xs am-text-center"><b>开班安排</b></p>
+                        <table class="am-table">
+                            <thead>
+                            <tr>
+                                <th>校区</th>
+                                <th>开班时间</th>
+                                <th>校区地址</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>长宁基础一班</td>
+                                <td>2019年1月20日</td>
+                                <td>长宁区定西路1300号业余大学2号楼</td>
+                            </tr>
+                            <tr>
+                                <td>徐汇基础一班</td>
+                                <td>2019年2月24日</td>
+                                <td>徐汇区曹溪北路88号圣爱大厦7楼706</td>
+                            </tr>
+                            <tr>
+                                <td>浦东基础一班</td>
+                                <td>2019年3月10日</td>
+                                <td>浦东源深路158号上海海事职业技术学院内</td>
+                            </tr>
+                            <tr>
+                                <td>杨浦基础一班</td>
+                                <td>2019年3月24日</td>
+                                <td>杨浦区控江路2063号五环大厦西座3楼第一教室</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </dd>
+        </dl>
+
+        <dl class="am-accordion-item">
+            <dt class="am-accordion-title">
+                <p class="written-class-title am-text-sm am-margin-vertical-xs"><b>【系统强化班】：重点、难点。易混淆点、易忽视点…着重讲解、强化练习</b></p>
+                <article>
+                    <img src="/upload/2017-11-10/10.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+                    <div class="am-padding-left-xs">
+
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程时间：6月至10月</b></p>
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程费用：8880元，数学60课时+英语68课时+逻辑28课时+写作16课时</b></p>
+
+
+                        <p class="span-btn"><span class="show">展开详细内容</span><span class="hide">收起详细内容</span></p>
+                    </div>
+                </article>
+            </dt>
+            <dd class="am-accordion-bd am-collapse ">
+                <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+                <div class="am-accordion-content">
+                    <div class="am-accordion-content">
+
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">适合人群：毕业5年及上 | 有一定基础 | 复习遇到瓶颈无法突破</p>
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">课程描述：各科全面提高，侧重考点、重点、难点的突破，对所学知识归纳整理，使之系统化。</p>
+                        <p class="am-margin-vertical-sm am-text-center am-text-lg"><b>开班安排</b></p>
+                        <table class="am-table">
+                            <thead>
+                            <tr>
+                                <th>校区</th>
+                                <th>开班时间</th>
+                                <th>校区地址</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>长宁系统一班</td>
+                                <td>2019年5月18日</td>
+                                <td>长宁区定西路1300号业余大学2号楼</td>
+                            </tr>
+                            <tr>
+                                <td>徐汇系统一班</td>
+                                <td>2019年6月1日</td>
+                                <td>徐汇区曹溪北路88号圣爱大厦7楼706</td>
+                            </tr>
+                            <tr>
+                                <td>浦东系统一班</td>
+                                <td>2019年6月22日</td>
+                                <td>浦东源深路158号上海海事职业技术学院内</td>
+                            </tr>
+                            <tr>
+                                <td>杨浦系统一班</td>
+                                <td>2019年6月23日</td>
+                                <td>杨浦区控江路2063号五环大厦西座3楼第一教室</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </dd>
+        </dl>
+
+        <dl class="am-accordion-item">
+            <dt class="am-accordion-title">
+                <p class="written-class-title am-text-sm am-margin-vertical-xs"><b>【模考冲刺班】：把握命题规律，熟知命题“套路”。真实模考积累实战经验</b></p>
+
+                <article>
+                    <img src="/upload/2017-11-10/11.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+                    <div class="am-padding-left-xs">
+
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程时间：10月至12月</b></p>
+                        <p class="am-margin-vertical-0 am-text-xs"><b>课程学费：8880元，数学60课时+英语68课时+逻辑28课时+写作16课时</b></p>
+
+
+                        <p class="span-btn"><span class="show">展开详细内容</span><span class="hide">收起详细内容</span></p>
+                    </div>
+                </article>
+            </dt>
+            <dd class="am-accordion-bd am-collapse ">
+                <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+                <div class="am-accordion-content">
+                    <div class="am-accordion-content">
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">适合人群：基础较好 | 想提前感受临考状态 | 冲刺高分</p>
+                        <p class="am-margin-vertical-0 am-text-xs am-link-muted">课程描述：高质量测试试卷，全真考试体验，专业改卷，导师精心讲评，积累实战经验，掌握命题动态。</p>
+
+                        <p class="am-margin-vertical-sm am-text-center"><b>开班安排</b></p>
+                        <table class="am-table">
+                            <thead>
+                            <tr>
+                                <th>校区</th>
+                                <th>开班时间</th>
+                                <th>校区地址</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>长宁冲刺一班</td>
+                                <td>2019年10月13日</td>
+                                <td>长宁区定西路1300号业余大学2号楼</td>
+                            </tr>
+                            <tr>
+                                <td>徐汇冲刺一班</td>
+                                <td>2019年10月13日</td>
+                                <td>徐汇区曹溪北路88号圣爱大厦7楼706</td>
+                            </tr>
+                            <tr>
+                                <td>浦东冲刺一班</td>
+                                <td>2019年10月13日</td>
+                                <td>浦东源深路158号上海海事职业技术学院内</td>
+                            </tr>
+                            <tr>
+                                <td>杨浦冲刺一班</td>
+                                <td>2019年10月13日</td>
+                                <td>杨浦区控江路2063号五环大厦西座3楼第一教室</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+
+    <a class="checkMore am-center" href="#jumpHere">我要咨询</a>
+
+</section>
+
+<section class="pickyTeacher">
+    <h3 class="noEn">挑剔老师？我们就怕你不挑剔</h3>
+
+    <div class="teacherBox">
+        <div class="slider slider-for">
+            <!--list{app="Article" label="contentList" class_id=7 expand_id=7 order="time asc"  limit=12}-->
+            <div>
+                <a href="{$list.aurl}">
+
+                    <div class="sliderBox">
+                        <div class="rightBox">
+                            <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+                        </div>
+                        <div class="leftBox">
+                            <p class="name">{$list.title}</p>
+                            <p class="description">{$list.description}</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <!--{/list}-->
+
+        </div>
+        <div class="slider slider-nav am-g">
+            <!--list{app="Article" label="contentList" class_id=7 expand_id=7 order="time asc"  limit=12}-->
+            <div><img src="{$list.circleImg}" class="am-img-responsive am-center" alt="{$list.title}" /></div>
+            <!--{/list}-->
+
+
+        </div>
+    </div>
+
+
+</section>
+
+<span id="jumpHere">&nbsp;</span>
+
+<!--#include file="consultFormBox.html"-->
+
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->
+

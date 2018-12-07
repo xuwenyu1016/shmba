@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+RewriteCond %{HTTP_HOST} ^hzmba.net [NC]
+RewriteRule ^(.*)$ http://www.hzmba.net/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^hz-mba.com [NC]
+RewriteRule ^(.*)$ http://www.hz-mba.com/$1 [L,R=301]
+
+</IfModule>

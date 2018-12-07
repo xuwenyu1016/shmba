@@ -1,0 +1,146 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-02-13/c8383220772250daf54d5d56f50609a2.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">什么是<b class="en red">{$categoryInfo.name}</b></span>
+</h3>
+
+<p class="am-padding-horizontal-sm">MPA 是公共管理硕士(Master of Public Administration) 专业学位的英文简称， 是以公共管理学科及其他相关学科为基础的研究生教育项目。</p>
+
+<p class="am-padding-horizontal-sm">目标是为政府部门及公共机构培养德才兼备、适应社会主义现代化建设需要的高层次、应用型、复合型的管理人才。</p>
+
+<p class="am-padding-horizontal-sm">公共管理学是一门运用管理学、政治学、经济学等多学科理论与方法，专门研究公共组织尤其是政府组织的管理活动及其规律的学科体系。</p>
+
+<h3 class="noBorder">
+    <span class="num">02</span>
+    <span class="prime">{$categoryInfo.name}<b class="en red">报考条件</b></span>
+</h3>
+
+<p class="am-padding-horizontal-sm">专科背景：至入学前毕业满5年及以上。</p>
+
+<p class="am-padding-horizontal-sm">本科背景：至入学前毕业满3年及以上。</p>
+
+<p class="am-padding-horizontal-sm">硕博背景：至入学前毕业满2年及以上。</p>
+
+<p class="am-padding-horizontal-sm">海外留学：需要教育部认证的学历证书。</p>
+
+<h3 class="noBorder">
+    <span class="num">03</span>
+    <span class="prime">上海{$categoryInfo.name}<b class="en red">院校有哪些</b></span>
+    <a href="/list-yuanXiaoXinXi.html" class="morePlus">more</a>
+</h3>
+
+<section class="schoolList am-padding-horizontal-sm">
+    <ul class="am-avg-sm-3">
+        <!--list{app="Article" label="contentList" class_id=1 expand_id=6 order="time desc" limit=13}-->
+        <!--if{ $list['mpa'] == $categoryInfo['name'] }-->
+        <li>
+            <div class="innerBox">
+                <a href="{$list.aurl}">
+                    <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+                    <p>{$list.title}</p>
+                </a>
+            </div>
+        </li>
+        <!--{/if}-->
+        <!--{/list}-->
+    </ul>
+</section>
+
+<h3 class="noBorder">
+    <span class="num">04</span>
+    <span class="prime">近期上海<b class="en red">{$categoryInfo.name}活动</b></span>
+</h3>
+
+<div class="layerBox am-padding-horizontal-sm am-padding-bottom-sm">
+    <!--list{app="Article" label="contentList" class_id=31 sub=true expand_id=13 }-->
+    <!--if{ $list['MPA'] ==  $categoryInfo['name']  && date('Y-m-d',$list['time']) >=  date("Y-m-d") }-->
+    <article class="layer">
+        <a href="{$list.aurl}">
+            <div class="calender">
+                <span>{$list.month}</span><span>{$list.date}</span>
+            </div>
+            <div class="classContent">
+                <p class="am-text-truncate">{$list.title}</p>
+                <p class="am-text-truncate">{$list.description}</p>
+                <span>免费试听</span>
+            </div>
+            <!--<p class="targetHiddenTime"><span class="year">{date('Y',$list.time)}</span><span class="month">{date('m',$list.time)}</span><span class="day">{date('d',$list.time)}</span></p>-->
+
+        </a>
+
+    </article>
+    <!--{/if}-->
+    <!--{/list}-->
+</div>
+
+<h3 class="noBorder">
+    <span class="num">05</span>
+    <span class="prime">近期上海<b class="en red">{$categoryInfo.name}备考试听课</b></span>
+</h3>
+
+<div class="layerBox am-padding-horizontal-sm am-padding-bottom-sm">
+    <!--list{app="Article" label="contentList" class_id=13 sub=true expand_id=8 }-->
+    <!--if{ $list['MPA'] ==  $categoryInfo['name']  && date('Y-m-d',$list['time']) >=  date("Y-m-d") }-->
+    <article class="layer">
+        <a href="{$list.aurl}">
+            <div class="calender">
+                <span>{$list.week}</span><span>{date('d',$list.begTime)}</span>
+            </div>
+            <div class="classContent">
+                <p class="am-text-truncate">{$list.title}</p>
+                <p class="am-text-truncate">{$list.description}</p>
+                <span>免费试听</span>
+            </div>
+            <!--<p class="targetHiddenTime"><span class="year">{date('Y',$list.time)}</span><span class="month">{date('m',$list.time)}</span><span class="day">{date('d',$list.time)}</span></p>-->
+
+        </a>
+
+    </article>
+    <!--{/if}-->
+    <!--{/list}-->
+
+</div>
+
+<h3 class="noBorder">
+    <span class="num">06</span>
+    <span class="prime">上海{$categoryInfo.name}<b class="en red">报考资讯</b></span>
+</h3>
+
+<div class="layerBox am-padding-horizontal-sm am-padding-bottom-sm">
+    <!--list{app="Article" label="contentList" class_id=16 sub=true  expand_id=14 }-->
+    <!--if{ $list['MPA'] ==  $categoryInfo['name']  }-->
+    <article class="layer">
+        <a href="{$list.aurl}">
+            <div class="imgBox">
+                <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+            </div>
+            <div class="classContent">
+                <p class="am-text-truncate">{$list.title}</p>
+                <p class="am-text-truncate">{$list.description}</p>
+            </div>
+        </a>
+
+    </article>
+    <!--{/if}-->
+    <!--{/list}-->
+
+</div>
+
+<h3 class="noBorder">
+    <span class="num">07</span>
+    <span class="prime">上海华章<b class="en red">{$categoryInfo.name}辅导课程</b></span>
+</h3>
+
+<!--#include file="threeClasses.html"-->
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

@@ -1,0 +1,107 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="{$contentInfo.mobileImg}" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<section class="contentContainer am-padding-sm">
+    <h3 class="noBorder">
+        <span class="num">01</span>
+        <span class="prime">招生<b class="red">信息</b></span>
+    </h3>
+
+    <div class="collegeBlock">
+
+        <div class="collegeList">
+
+            <p><span class="bold">项目类别：</span>{$contentInfo.category}</p>
+            <p><span class="bold">学制：</span>{$contentInfo.duration}</p>
+            <p><span class="bold">是否接受调剂：</span>{$contentInfo.adjustable}</p>
+            <p><span class="bold">是否开设提前面试：</span>{$contentInfo.interview}</p>
+
+            <p><span class="bold">招生人数：</span>{$contentInfo.recruitNum}</p>
+
+            <p><span class="bold">学费：</span>{$contentInfo.tuition}</p>
+            <p><span class="bold">奖学金：</span>{$contentInfo.scholarship}</p>
+            <p><span class="bold">历年分数线：</span>{$contentInfo.passingScore}</p>
+
+            <h3 class="noBorder">
+                <span class="num">02</span>
+                <span class="prime">面试<b class="red">时间</b></span>
+            </h3>
+            <div class="recruit">
+               {$contentInfo.interviewTime}
+            </div>
+
+            <h3 class="noBorder">
+                <span class="num">03</span>
+                <span class="prime">师资<b class="red">力量</b></span>
+            </h3>
+
+            <div data-am-widget="slider" class="am-slider am-slider-default recruitSlider" data-am-slider='{itemWidth:100, itemMargin: 5, minItems:3, maxItems:3, slideshow: true}' >
+                <ul class="am-slides">
+                    {$contentInfo.teacherResources}
+                </ul>
+            </div>
+
+            <h3 class="noBorder">
+                <span class="num">04</span>
+                <span class="prime">优秀<b class="red">学员</b></span>
+            </h3>
+
+            <div data-am-widget="slider" class="am-slider am-slider-default recruitSlider" data-am-slider='{itemWidth:100, itemMargin: 5, minItems:3, maxItems:3, slideshow: true}' >
+                <ul class="am-slides">
+                    {$contentInfo.ourStudents}
+                </ul>
+            </div>
+
+            <h3 class="noBorder">
+                <span class="num">05</span>
+                <span class="prime">项目<b class="red">特色</b></span>
+            </h3>
+
+            <div class="features">
+                {$contentInfo.features}
+
+            </div>
+
+            <h3 class="noBorder">
+                <span class="num">06</span>
+                <span class="prime">近期<b class="red">活动</b></span>
+            </h3>
+
+            <div class="layerBox am-padding-bottom-sm">
+                <!--list{app="Article" label="contentList" class_id=31 sub=true limit=3 expand_id=13}-->
+                <article class="layer">
+                    <a href="{$list.aurl}">
+                        <div class="calender">
+                            <span>{$list.month}</span><span>{$list.date}</span>
+                        </div>
+                        <div class="classContent">
+                            <p class="am-text-truncate">{$list.title}</p>
+                            <p class="am-text-truncate">{$list.description}</p>
+                            <span>免费试听</span>
+                        </div>
+
+                        <p class="targetHiddenTime"><span class="year">{date('Y',$list.time)}</span><span class="month">{date('m',$list.time)}</span><span class="day">{date('d',$list.time)}</span></p>
+
+                    </a>
+
+                </article>
+                <!--{/list}-->
+              
+
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

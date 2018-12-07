@@ -1,0 +1,108 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<style>
+    .mpacc-intro .mpacc-title{display: flex;align-items: center;}
+    .mpacc-intro .mpacc-title img{width: 50px;margin-right: 1rem;}
+    .mpacc-intro p{color: #333;}
+    .mpacc-intro .am-slider{box-shadow: none;}
+
+    .mpacc-consult{background-color: #2c7db0;position: relative;}
+    .mpacc-consult h3{color: white;}
+    .mpacc-consult h3 .green_bottom{display: block;border-top: 4px solid #4290b8;margin: 0 auto -3px auto;width: 50px;}
+    .mpacc-consult .img-hands{position: absolute;right: 0;bottom: 0;width: 20%;}
+</style>
+
+<img src="/upload/2018-08-05/12.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<section class="mpacc-intro am-padding-bottom-sm">
+    <article class="am-padding-sm">
+        <div class="mpacc-title"><img src="/upload/2018-08-05/2.png" class="am-img-responsive" alt="{$categoryInfo.name}" /> MPAcc介绍</div>
+        <p class="para-indent text-lg am-margin-top-sm am-margin-bottom-0">会计硕士专业学位又称专业会计硕士（Master of Professional Accounting，简称MPAcc）是经教育部、国务院学位办批准设立的一种专业学位。会计硕士专业学位的目标是培养具有良好职业道德， 系统掌握现代会计理论与实务以及相关领域的知识与技能，具备会计工作领导能力的高素质会计人才。</p>
+    </article>
+
+    <article class="am-padding-sm">
+        <div class="mpacc-title"><img src="/upload/2018-08-05/3.png" class="am-img-responsive" alt="{$categoryInfo.name}" /> 会计硕士(MPAcc)适用人群</div>
+
+        <p class="text-lg am-margin-top-sm am-margin-bottom-xs">1、大学本科毕业生就可以。</p>
+        <p class="text-lg am-margin-vertical-xs">2、国家承认的高职高专毕业学历后，满2年或2年以上工作经历的人都可以报考会计硕士。</p>
+        <p class="text-lg am-margin-vertical-xs">3、以下几种考生更适合考研：</p>
+
+
+            <p class="am-padding-left-sm text-lg am-margin-vertical-xs">(1)有志于深化本专业学习的考生，希望提升自己的理论与实践能力;</p>
+            <p class="am-padding-left-sm text-lg am-margin-vertical-xs">(2)为了兴趣决定放弃本专业的跨专业的考生;</p>
+            <p class="am-padding-left-sm text-lg am-margin-vertical-xs">(3)希望通过学习提高或扩展自己的知识层次的考生。</p>
+
+    </article>
+
+    <article class="am-padding-sm">
+        <div class="mpacc-title"><img src="/upload/2018-08-05/4.png" class="am-img-responsive" alt="{$categoryInfo.name}" /> MPAcc高校学费、录取分数</div>
+
+        <img src="/upload/2018-08-05/13.png" alt="{$categoryInfo.name}" class="am-img-responsive am-center am-margin-top-lg"/>
+    </article>
+
+    <article class="am-padding-sm">
+        <div class="mpacc-title"><img src="/upload/2018-08-05/6.png" class="am-img-responsive" alt="{$categoryInfo.name}" /> 华章导师</div>
+
+        <div data-am-widget="slider" class="am-slider am-slider-b1" data-am-slider='{"controlNav":false}' >
+            <ul class="am-slides">
+                <li>
+                    <ul class="am-avg-sm-3">
+                        <!--list{app="Article" label="contentList" class_id=7 expand_id=7 limit="3" order="time asc" }-->
+                        <li>
+                            <div>
+                                <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+                                <p class="am-text-center am-margin-top-sm am-margin-bottom-xs">{$list.title}</p>
+                                <!--<p class="am-margin-vertical-xs am-text-sm">{$list.description}</p>-->
+                            </div>
+                        </li>
+                        <!--{/list}-->
+                    </ul>
+
+                </li>
+                <li>
+                    <ul class="am-avg-sm-3">
+                        <!--list{app="Article" label="contentList" class_id=7 expand_id=7 limit="3" order="time asc" not_id="129,22,23"}-->
+                        <li>
+                            <div>
+                                <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+                                <p class="am-text-center am-margin-top-sm am-margin-bottom-xs">{$list.title}</p>
+                                <!--<p class="am-margin-vertical-xs am-text-sm">{$list.description}</p>-->
+                            </div>
+                        </li>
+                        <!--{/list}-->
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </article>
+
+    <article class="am-padding-sm">
+        <div class="mpacc-title"><img src="/upload/2018-08-05/7.png" class="am-img-responsive" alt="{$categoryInfo.name}" /> MPAcc课程设置</div>
+
+        <p class="am-margin-vertical-sm grey text-lg">线下面授班</p>
+        <img src="/upload/2018-08-05/14.png" alt="{$categoryInfo.name}" class="am-img-responsive am-margin-bottom-lg"/>
+
+        <p class="am-margin-vertical-sm grey text-lg">移动互联课程班</p>
+        <img src="/upload/2018-08-05/15.png" alt="{$categoryInfo.name}" class="am-img-responsive"/>
+    </article>
+</section>
+
+
+<section class="mpacc-consult am-padding-sm">
+
+    <h3 class="noBorder">立即预约 <span class="green_bottom"></span></h3>
+
+    <!--#include file="form.html"-->
+
+    <img src="/upload/2018-08-05/17.png" alt="{$categoryInfo.name}" class="am-img-responsive img-hands"/>
+</section>
+
+
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

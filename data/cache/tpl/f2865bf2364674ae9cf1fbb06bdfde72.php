@@ -1,0 +1,147 @@
+<?php exit;?>00157509753601cf36e379320dfc02895452cea0b908s:9009:"a:2:{s:8:"template";s:8945:"﻿
+<?php $__Template->display("themes/mobile/head"); ?>
+
+<?php $__Template->display("themes/mobile/header"); ?>
+
+<a href="#criticalMain">
+    <img src="/upload/2017-11-09/14.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+</a>
+
+
+<section class="am-padding-sm critical-reasons critical-page" id="criticalMain">
+
+    <h3 class="noEn">学历有多么重要，你知道吗？</h3>
+
+    <p class="am-margin-vertical-sm am-text-xs">学历在当今社会上扮演的角色已经越来越重要了。可能会有很多人问有没有学历那么重要吗？那我可以很确定的告诉您，是的。尽管社会已经发生了很大的变化，人们改变自身的途径也变得多样化了，但这并没有降低学历的重要性,从某种程度上来说反而加强了，学历是人才素质评定的一个基础标准，已经成为了社会各行业资格评审，求职就业等一系列活动的门槛。</p>
+
+    <ul class="am-avg-sm-1 am-margin-top-sm">
+        <li class="am-margin-bottom-sm">
+            <article>
+                <img src="/upload/2017-11-09/2.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">升职加薪</p>
+                    <p class="critical-reasons-describe">先从很多大型企业来讲，学历不同，薪资是不一样的，大专，本科，研究生，博士，博士后，是全日制还是其它方式，是国内的还是国外的，总之学历不同，薪资不同！</p>
+                </div>
+
+            </article>
+        </li>
+        <li class="am-margin-bottom-sm">
+            <article>
+                <img src="/upload/2017-11-09/3.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">考公务员</p>
+                    <p class="critical-reasons-describe">公务员工作稳定，现在许多人都想做公务员，而人事部规定，公务员岗位需要通过公务员考试，现在大多数公务员岗位都要求本科学历才有资格报考，通常只会把基层和艰苦的工作岗位留给专科毕业生。   </p>
+                </div>
+
+            </article>
+        </li>
+        <li class="am-margin-bottom-sm">
+            <article>
+                <img src="/upload/2017-11-09/4.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">考研究生</p>
+                    <p class="critical-reasons-describe">有了本科毕业证和学位证，就能直接报考全国统招研究生了，而专科生只能在专科毕业满两年后以同等学力报考研究生，尽管国家规定允许专科毕业满两年后以同等学力报考研究生，但许多大学实际上却不愿招收专科生。</p>
+                </div>
+
+            </article>
+        </li>
+
+        <li class="am-margin-bottom-sm">
+            <article>
+                <img src="/upload/2017-11-09/5.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">考职称</p>
+                    <p class="critical-reasons-describe">如今各类职称评定几乎都与学历挂钩，评定高级职称时专科学历以下基本上没有机会，而许多单位的主管、领导几乎都由高级职称的人担任，没有高级职称将会丧失许多当主管、领导的机会，没有本科学历，则会丧失评高级职称的机会。</p>
+                </div>
+
+            </article>
+        </li>
+        <li class="am-margin-bottom-sm">
+            <article>
+                <img src="/upload/2017-11-09/6.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">出国深造</p>
+                    <p class="critical-reasons-describe">许多国家都承认我国的本科学历，有了本科，就可以在国外直接报读更高一个级别的学历了，不需要在国外再浪费时间，这样会省许多费用。</p>
+                </div>
+
+            </article>
+        </li>
+        <li>
+            <article>
+                <img src="/upload/2017-11-09/7.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">上海落户</p>
+                    <p class="critical-reasons-describe">为小孩上学或其他工作生活上的便利，上海的居住证积分政策较严格，专科学历积60分，本科加学位积90分，硕士研究生积100分。居住证积分达到120分，小孩就可享受上海本地政策，可在上海上学报考。全职MBA毕业生有机会可以直接落户。</p>
+                </div>
+
+            </article>
+        </li>
+    </ul>
+
+</section>
+
+
+<section class="am-padding-sm critical-us critical-page">
+
+    <h3 class="noEn">为什么要选择上海华章教育？</h3>
+
+    <p class="am-margin-vertical-sm am-text-xs">华章全国遍布47家分校，上海华章秉承为每一位考生寻找适合自己的院校为原则，来服务每一位咨询华章的学生！<br/>我们也一直与各大名校建立长期的，友好的，深度的友邦兄弟关系！上海华章提前面试C线通过率2018年依旧翘楚！</p>
+
+    <ul class="am-avg-sm-1 am-margin-bottom-sm us-cols">
+        <li class="am-margin-bottom-sm">
+            <article>
+
+                <img src="/upload/2017-11-09/8.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">师资雄厚</p>
+
+                    <p class="critical-reasons-describe">授课老师从事多年管理类联考考前辅导经验丰富，高教版、机工版主编授课明白易懂，深入浅出，条理清晰；无论考生基础强弱，让考生迅速提高考试成绩；华章笔试通过率高，提前面试辅导老师为各商学院面试官及行业大咖</p>
+                </div>
+
+            </article>
+        </li>
+        <li class="am-margin-bottom-sm">
+            <article>
+
+                <img src="/upload/2017-11-09/9.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">免费试听</p>
+
+                    <p class="critical-reasons-describe">担心课程质量不好？上海华章独家免费试听来体验，亲身体验才知道老师好不好。现场试听结束也可以向老师咨询更多信息。</p>
+                </div>
+            </article>
+        </li>
+        <li>
+            <article>
+
+                <img src="/upload/2017-11-09/10.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <div class="am-padding-left-xs">
+                    <p class="critical-reasons-title">面授+网课</p>
+
+                    <p class="critical-reasons-describe">资深导师，线下授课解惑，线上课程均为导师线下课程的现场录播，可随时会回放，不限时间和次数，方便快捷。24小时助教在线答疑，随时解决学习问题。</p>
+                </div>
+            </article>
+        </li>
+    </ul>
+
+    <p class="am-margin-vertical-sm am-text-sm"><b>知识共享，内容沉淀，融会贯通，专业助教，答疑解惑，实时问答，系统学习，建构知识体系，提高做题能力小组互助，语音交流，私信沟通，上海华章将根据每一位学生的自身条件，为您选择择校方案！我们的责任是让您一次通过联考！不仅通过联考，更要受益终生！</b></p>
+
+
+    <ul class="am-avg-sm-2 am-margin-vertical-sm btns">
+        <li>
+            <a href="http://p.qiao.baidu.com/cps/chat?siteId=12159402&userId=399307" target="_blank">点击咨询</a>
+        </li>
+        <li>
+            <span>咨询电话:<?php $listList = service("duxcms","Label","formList",array( "app"=>"DuxCms", "label"=>"formList", "table"=>"hz_mba_describe", "limit"=>1));  if(is_array($listList)) foreach($listList as $list){ ?><?php echo $list["tel"];?><?php } ?></span>
+        </li>
+    </ul>
+</section>
+
+
+<?php $__Template->display("themes/mobile/firmIntroBox"); ?>
+
+<?php $__Template->display("themes/mobile/ending"); ?>
+";s:12:"compile_time";i:1543561536;}";

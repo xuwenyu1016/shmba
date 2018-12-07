@@ -1,0 +1,35 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-01-03/7482c23efc251f702d90c0d0a7f2c88d.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+
+<section class="am-padding-sm">
+    <h3><span class="leftBrackets">[</span><span class="core">试听课</span><span class="rightBrackets">]</span><span class="borderBottom"></span></h3>
+    <div class="layerBox">
+        <!--foreach{$pageList as $vo}-->
+        <article class="layer">
+            <a href="{$vo.aurl}">
+                <div class="calender">
+                    <span>{$vo.week}</span><span>{date('d',$vo.begTime)}</span>
+                </div>
+                <div class="classContent">
+                    <p class="am-text-truncate">{$vo.subject}课程</p>
+                    <p class="am-text-truncate">{$vo.description}</p>
+                    <span>免费试听</span>
+                </div>
+            </a>
+
+        </article>
+        <!--{/foreach}-->
+        <div class="page">{$page}</div>
+
+    </div>
+</section>
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->
+

@@ -1,0 +1,172 @@
+﻿<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2017-12-22/18.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">01</span>
+                    <span class="numContent">什么是<b class="red en">{$categoryInfo.name}</b></span>
+                </h3>
+
+                <article class="textBox am-margin-top-sm">
+                    <p>  MAPACC是专业会计硕士（Master of Professional Accounting，简称MPACC ）是经教育部、国务院学位办批准设立的一种专业学位。</p>
+                    <p>培养具有良好职业道德，系统掌握现代会计理论与实务以及相关领域的知识与技能，具备会计工作领导能力的高素质会计人才。</p>
+                    
+                </article>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">02</span>
+                    <span class="numContent">什么是{$categoryInfo.name}<b class="red en">报考条件？</b></span>
+                </h3>
+
+                <article class="textBox am-margin-top-sm">
+                    <p>专科背景：至入学前毕业满2年及以上。</p>
+                    <p>本科背景：至入学前毕业即可报考（含应届生）。</p>
+                    
+                </article>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">03</span>
+                    <span class="numContent">上海{$categoryInfo.name}<b class="red en">院校有哪些？</b></span>
+                    <a href="/list-yuanXiaoXinXi.html" class="morePlus am-margin-top-sm">更多院校</a>
+                </h3>
+
+                <ul class="am-avg-sm-5 schoolList">
+                    <!--list{app="Article" label="contentList" class_id=1 expand_id=6 order="time desc" limit=13}-->
+                    <!--if{ $list['mpacc'] == $categoryInfo['name'] }-->
+                    <li>
+                        <div class="innerBox">
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />
+                                <p class="am-text-sm">{$list.title}</p>
+                            </a>
+                        </div>
+                    </li>
+                    <!--{/if}-->
+                    <!--{/list}-->
+                </ul>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">04</span>
+                    <span class="numContent">近期上海<b class="red en">{$categoryInfo.name}活动</b></span>
+                </h3>
+
+
+                <section class="theoryClass testClass am-margin-vertical-sm">
+
+                    <div class="class layerBox">
+                        <!--list{app="Article" label="contentList" class_id=31 sub=true expand_id=13 }-->
+                        <!--if{ $list['MPAcc'] ==  $categoryInfo['name']  && date('Y-m-d',$list['time']) >=  date("Y-m-d") }-->
+                        <div class="layer">
+                            <a href="{$list.aurl}" class="am-padding-horizontal-lg">
+                                <div class="schedule">
+                                    <span>{$list.month}</span>
+                                    <span>{$list.date}</span>
+                                </div>
+                                <div class="classContent am-padding-horizontal-lg">
+                                    <p class="am-text-truncate">{$list.title}</p>
+                                    <p class="am-text-truncate">{$list.description}</p>
+                                </div>
+
+                                <!--<p class="targetHiddenTime"><span class="year">{date('Y',$list.time)}</span><span class="month">{date('m',$list.time)}</span><span class="day">{date('d',$list.time)}</span></p>-->
+
+                                <button class="checkMore">免费试听</button>
+                            </a>
+                        </div>
+                        <!--{/if}-->
+                        <!--{/list}-->
+
+                    </div>
+
+                </section>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">05</span>
+                    <span class="numContent">近期上海<b class="red en">{$categoryInfo.name}备考试听课</b></span>
+                </h3>
+
+                <section class="theoryClass testClass am-margin-vertical-sm">
+
+                    <div class="class layerBox">
+                        <!--list{app="Article" label="contentList" class_id=13 sub=true expand_id=8 }-->
+                        <!--if{ $list['MPAcc'] ==  $categoryInfo['name']  && date('Y-m-d',$list['time']) >=  date("Y-m-d") }-->
+                        <div class="layer">
+                            <a href="{$list.aurl}" class="am-padding-horizontal-lg">
+                                <div class="schedule">
+                                    <span>{$list.week}</span>
+                                    <span>{date('d',$list.begTime)}</span>
+                                </div>
+                                <div class="classContent am-padding-horizontal-lg">
+                                    <p class="am-text-truncate">{$list.title}</p>
+                                    <p class="am-text-truncate">{$list.description}</p>
+                                </div>
+
+                                <!--<p class="targetHiddenTime"><span class="year">{date('Y',$list.time)}</span><span class="month">{date('m',$list.time)}</span><span class="day">{date('d',$list.time)}</span></p>-->
+
+                                <button class="checkMore">免费试听</button>
+                            </a>
+                        </div>
+                        <!--{/if}-->
+                        <!--{/list}-->
+
+
+                    </div>
+
+                </section>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">06</span>
+                    <span class="numContent">上海{$categoryInfo.name}<b class="red en">报考资讯</b></span>
+                </h3>
+
+                <article class="newsBox">
+                    <!--list{app="Article" label="contentList" class_id=16 sub=true  expand_id=14 }-->
+                    <!--if{ $list['MPAcc'] ==  $categoryInfo['name']  }-->
+                    <div class="innerBox">
+                        <a href="{$list.aurl}">
+                            <img src="{$list.image}" class="am-img-responsive" alt="{$list.title}" />
+
+                            <div class="newContainer">
+                                <p class="newsTitle am-text-truncate">{$list.title}</p>
+                                <p class="newContent">{$list.description}</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--{/if}-->
+                    <!--{/list}-->
+
+                </article>
+
+            </div>
+
+            <div class="formBox">
+
+                <!--#include file="sideBarForm.html"-->
+
+                <h3 class="subTitle am-text-center am-margin-top-lg">
+                    <span class="num">07</span>
+                    <span class="numContent">上海华章<b class="red">{$categoryInfo.name}辅导课程</b></span>
+                </h3>
+
+                <!--#include file="threeClasses.html"-->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

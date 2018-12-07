@@ -1,0 +1,45 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2017-12-18/791419b41eb834e553414e230e8e0e45.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+        <h2 class="title">
+            <span class="num">01</span>
+            <span class="numContent">{$categoryInfo.name}</span>
+        </h2>
+
+        <ul class="am-avg-sm-5 am-margin-top-lg">
+            <!--foreach{$pageList as $vo}-->
+            <li>
+                <article class="imgGallery">
+                    <a href="{$vo.aurl}">
+                        <img src="{$vo.image}" class="am-img-responsive" alt="{$vo.title}" />
+                        <p class="am-text-truncate am-text-center am-margin-top-xs">{$vo.title}</p>
+                    </a>
+                </article>
+            </li>
+            <!--{/foreach}-->
+        </ul>
+        <div class="page">{$page}</div>
+    </div>
+</section>
+
+<section class="benefits am-padding-vertical-xl">
+    <div class="am-container am-padding-vertical-sm">
+        <h2>不仅通过联考，更要受益终身<span class="borderSpan"></span></h2>
+
+        <ul class="am-avg-sm-3 am-padding-top-xl">
+            <!--#include file="benefits.html"-->
+        </ul>
+    </div>
+</section>
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

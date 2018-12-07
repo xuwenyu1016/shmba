@@ -1,0 +1,628 @@
+﻿<!--#include file="head_index.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="indexSlider">
+    <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}' >
+        <ul class="am-slides">
+            <!--list{app="DuxCms" label="formList" table="PCslider" order="giveOrder asc" limit=100}-->
+            <!--if{ $list['giveOrder'] !=  0 }-->
+            <li>
+                <a href="{$list.link}" target="_blank" title="{$list.description}">
+                    <img src="{$list.img}" class="am-img-responsive" alt="{$list.description}"/>
+                </a>
+            </li>
+            <!--{/if}-->
+            <!--{/list}-->
+
+        </ul>
+    </div>
+</section>
+
+<section class="theoryClass">
+    <div class="am-container">
+        <ul class="am-avg-sm-2">
+            <li>
+                <section class="theory am-padding-top-xl">
+
+                    <h2>华章理念<span class="borderSpan"></span></h2>
+
+                    <p class="subtitle">上海华章MBA考前辅导机构专注MBA培训，华章MBA培训依托个性化辅导，把握MBA联考信息，例如MBA提前面试，MBA报考条件，MBA和EMBA的区别等，选全国MBA导师，铸就MBA联考高通过率。华章秉承“不仅通过联考，更要受益终身”的办学理念，圆您名校MBA梦，成就辉煌人生！</p>
+
+                    <ul class="am-avg-sm-3">
+                        <li><a href="/list-mba.html"><span>MBA</span><span>> CHECK MORE <</span></a></li>
+                        <li><a href="/list-emba.html"><span>EMBA</span><span> > CHECK MORE < </span></a></li>
+                        <li><a href="/list-mpa.html"><span>MPA</span><span> > CHECK MORE < </span></a></li>
+                        <li><a href="/list-mpacc.html"><span>MPAcc</span><span> > CHECK MORE < </span></a></li>
+                        <li><a href="/list-mem.html"><span>MEM</span><span> > CHECK MORE < </span></a></li>
+                        <li><a href="/topic-MBATiQianMianShi.html" class="am-text-danger"><span class="fontSm">提前面试</span><span> > CHECK MORE < </span></a></li>
+                    </ul>
+
+                </section>
+            </li>
+            <li>
+                <section class="class am-padding-top-xl">
+
+                    <h2>试听课程 <a href="/list-shiTingKeKeCheng.html" class="rightMore">more</a><span class="borderSpan"></span></h2>
+
+                    <article class="layerBox targetLayer">
+                        <!--list{app="Article" label="contentList" class_id=13 expand_id=8 limit="15" order="begTime desc"   }-->
+                            <!--if{ date('Y-m-d H-i-s',$list['time']) >=  date("Y-m-d H-i-s")  }-->
+                        <div class="layer">
+                            <p class="targetHiddenTime">
+                                <input class="hiddenInput" type="hidden" value="{date('YmdH',$list.time)}" placeholder="{date('YmdH',$list.time)}" />
+                            </p>
+
+                            <a href="{$list.aurl}" target="_blank">
+                                <div class="schedule">
+                                    <span>{$list.week} </span>
+                                    <span>{date('d',$list.begTime)}</span>
+                                </div>
+                                <div class="classContent">
+                                    <p>【{$list.subject}课程】</p>
+                                    <p><span class="location">{$list.location}</span><span>校区-{$list.subject}导师-{$list.Instructor} 预约试听！</span></p>
+                                </div>
+
+
+
+                                <button class="checkMore">预约试听</button>
+                            </a>
+                        </div>
+
+                            <!--{/if}-->
+                        <!--{/list}-->
+                    </article>
+
+                </section>
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<section class="teacherStudent">
+    <div class="am-container">
+        <ul class="am-avg-sm-2">
+            <li>
+                <section class="teacher am-padding-vertical-xl">
+                    <h2>导师介绍 <a href="/list-huaZhangDaoShi.html" class="rightMore">more</a><span class="borderSpan"></span></h2>
+
+                    <div class="teacherBox">
+                        <div data-am-widget="slider" class="am-slider am-slider-b1" data-am-slider='{&quot;controlNav&quot;:false}'>
+                            <ul class="am-slides">
+                                <!--list{app="Article" label="contentList" class_id=7 expand_id=7 order="time asc"  limit=12}-->
+                                <li>
+
+                                    <div>
+                                        <a href="{$list.aurl}" target="_blank">
+                                            <div class="sliderBox">
+                                                <div class="leftBox">
+                                                    <p class="name">{$list.title}</p>
+                                                    <p class="description">{$list.briefIntro}</p>
+                                                    <button class="checkMore">免费试听</button>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <img src="{$list.image}" class="am-img-responsive am-center"
+                                                         alt="{$list.subject}导师-{$list.title}"/>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+
+                                </li>
+                                <!--{/list}-->
+                            </ul>
+                        </div>
+                        <!--<div class="slider slider-for">-->
+                            <!--&lt;!&ndash;list{app="Article" label="contentList" class_id=7 expand_id=7 order="time asc"  limit=12}&ndash;&gt;-->
+                            <!--<div>-->
+                                <!--<a href="{$list.aurl}" target="_blank">-->
+                                    <!--<div class="sliderBox">-->
+                                        <!--<div class="leftBox">-->
+                                            <!--<p class="name">{$list.title}</p>-->
+                                            <!--<p class="description">{$list.briefIntro}</p>-->
+                                            <!--<button class="checkMore">免费试听</button>-->
+                                        <!--</div>-->
+                                        <!--<div class="rightBox">-->
+                                            <!--<img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.subject}导师-{$list.title}" />-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+
+                            <!--</div>-->
+                            <!--&lt;!&ndash;{/list}&ndash;&gt;-->
+
+                        <!--</div>-->
+                        <!--<div class="slider slider-nav am-g">-->
+                            <!--&lt;!&ndash;list{app="Article" label="contentList" class_id=7 expand_id=7 order="time asc" limit=12}&ndash;&gt;-->
+                            <!--<div>-->
+                                <!--<a href="{$list.aurl}">-->
+                                    <!--<img src="{$list.circleImg}" class="am-img-responsive am-center" alt="{$list.subject}导师-{$list.title}" />-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash;{/list}&ndash;&gt;-->
+
+                        <!--</div>-->
+                    </div>
+
+
+                </section>
+            </li>
+            <li>
+                <section class="student am-padding-top-xl">
+                    <h2>学员风采<a href="/list-MBAXueYuanFengCai.html" class="rightMore">more</a> <span class="borderSpan"></span></h2>
+
+                    <div class="studentBox">
+
+                            
+                        <!--list{app="DuxCms" label="formList" table="ourStudents" limit=4 order="giveOrder asc"}-->
+
+                        <article class="innerBox">
+                            <!--<a href="/list-MBAXueYuanFengCai.html">-->
+                            <img src="{$list.img}" class="am-img-responsive" title="{$list.name}" alt="{$list.name}" />
+                            <!--</a>-->
+
+                                <p class="studentInfo">  <a href="/list-MBAXueYuanFengCai.html">{$list.lineOne}  </a></p>
+
+                        </article>
+
+                        <!--{/list}-->
+
+                    </div>
+
+                </section>
+
+                <!--<section class="video am-padding-top-sm am-padding-bottom-xl">-->
+                    <!--<ul class="am-avg-sm-3">-->
+                        <!--&lt;!&ndash;list{app="Article" label="contentList" class_id=29 expand_id=15 order="time desc" limit=3}&ndash;&gt;-->
+                       <!--<li>-->
+                           <!--<div class="innerBox">-->
+                               <!--<a href="{$list.aurl}">-->
+                                   <!--<img src="{$list.image}" class="am-img-responsive am-center" alt="{$list.title}" />-->
+                                   <!--<p><span class="am-icon-youtube-play"></span></p>-->
+                               <!--</a>-->
+                           <!--</div>-->
+                       <!--</li>-->
+                        <!--&lt;!&ndash;{/list}&ndash;&gt;-->
+
+                    <!--</ul>-->
+                <!--</section>-->
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--list{app="DuxCms" label="formList" table="ads" limit=1}-->
+<a href="{$list.midPictureLink}" target="_blank">
+    <img src="{$list.midPicture}" alt="{$list.description}" class="am-img-responsive am-center" />
+</a>
+<!--{/list}-->
+
+<section class="classExperience">
+    <div class="am-container am-padding-vertical-xl">
+        <ul class="am-avg-sm-2">
+            <li>
+                <section class="index-class">
+                    <h2>免费课程<span class="borderSpan"></span></h2>
+
+                    <article class="class-box-one">
+                        <a href="/topic-MBAcepingzhongxin.html">
+                            <img src="/upload/2018-04-07/26.jpg" alt="MBA面试成功着装指南" class="am-img-responsive am-center"/>
+                            <p class="am-margin-bottom-0 am-text-truncate"><b>你考上名校MBA的几率有多大</b></p>
+                            <p class="am-margin-top-0 am-text-sm">MBA报考看的是背景，看的是潜力。但更看你和你的竞争者的相对成绩，来看看你在报考人群中处在什么位置。</p>
+                        </a>
+                    </article>
+
+                    <article class="class-box-two">
+                        <ul class="am-avg-sm-2">
+                            <li>
+                                <div class="innerBox">
+                                    <a href="/topic-fanDengDuShuHui.html">
+                                        <img src="/upload/2018-04-07/27.jpg" alt="樊登读书会线下活动" class="am-img-responsive am-center"/>
+                                        <p class="am-text-center am-text-truncate">樊登读书会线下活动</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="innerBox">
+                                    <a href="/list-kaibanbaomingyouhui.html">
+                                        <img src="/upload/2018-04-07/28.jpg" alt="即将开班，报名优惠中" class="am-img-responsive am-center"/>
+                                        <p class="am-text-center am-text-truncate">即将开班，报名优惠中</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+
+                </section>
+            </li>
+            <li>
+                <section class="index-experience">
+                    <h2>经验分享<span class="borderSpan"></span><a href="/list-JingYanFenXiang.html" class="rightMore">more</a></h2>
+
+                    <article class="num-box">
+                        <!--list{app="DuxCms" label="contentList" class_id=30  limit=4 not_id="356"}-->
+                        <div class="num">
+                            <a href="{$list.aurl}" target="_blank" title="{$list.title}{$list.content_id}">
+                                <span>0{$list.i+1}</span>
+                                <div class="content-box">
+                                    <p class="am-margin-0"><b>{$list.title}</b></p>
+                                    <p class="am-margin-0">{$list.description}</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <!--{/list}-->
+                    </article>
+                </section>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="latest am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>近期动态<span class="borderSpan"></span></h2>
+
+        <div class="latest-activities-box am-margin-top-lg">
+            <div data-am-widget="tabs" class="am-tabs am-tabs-default index-tabs am-padding-right-xs">
+                <ul class="am-tabs-nav">
+                    <li class="am-active am-margin-bottom-sm"><a href="[data-tab-panel-0]"><span> > </span>常见问题<span> < </span></a></li>
+                    <li class="am-margin-bottom-sm"><a href="[data-tab-panel-1]"><span> > </span>笔面资讯<span> < </span></a></li>
+                    <li class="am-margin-bottom-sm"><a href="[data-tab-panel-2]"><span> > </span>报考资讯<span> < </span></a></li>
+                    <li class="am-margin-bottom-sm"><a href="[data-tab-panel-3]"><span> > </span>MBA咨询会<span> < </span></a></li>
+                    <li class="am-margin-bottom-sm"><a href="[data-tab-panel-4]"><span> > </span>备考日记<span> < </span></a></li>
+                    <li class=""><a href="[data-tab-panel-5]" onclick="javascript:window.location.href='/list-yuanXiaoXinXi.html'"><span> > </span>合作院校<span> < </span></a></li>
+                </ul>
+                <div class="am-tabs-bd">
+                    <div data-tab-panel-0 class="am-tab-panel am-active">
+
+                        <article>
+                            <a href="/list-MBAChangJianWenTi.html" class="morePlus">+more</a>
+                            <!--list{app="DuxCms" label="contentList" class_id=14  limit=4}-->
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" title="{$list.title}" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">{$list.title}</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">{$list.description}</p>
+                                </div>
+                            </a>
+                            <!--{/list}-->
+                        </article>
+
+                    </div>
+                    <div data-tab-panel-1 class="am-tab-panel ">
+                        <article>
+                            <a href="/list-MBABiMianZiXun.html" class="morePlus">+more</a>
+                            <!--list{app="DuxCms" label="contentList" class_id=36  limit=4}-->
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" title="{$list.title}" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">{$list.title}</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">{$list.description}</p>
+                                </div>
+                            </a>
+                            <!--{/list}-->
+                        </article>
+                    </div>
+                    <div data-tab-panel-2 class="am-tab-panel ">
+                        <article>
+                            <a href="/list-MBABaoKaoXiangGuan.html" class="morePlus">+more</a>
+                            <!--list{app="DuxCms" label="contentList" class_id=16  limit=4}-->
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" title="{$list.title}" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">{$list.title}</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">{$list.description}</p>
+                                </div>
+                            </a>
+                            <!--{/list}-->
+                        </article>
+                    </div>
+                    <div data-tab-panel-3 class="am-tab-panel ">
+                        <article>
+                            <a href="/list-MBAZiXunHuiJiJiaoYuZhao.html" class="morePlus">+more</a>
+                            <a href="/topic-MBAZiXunHui.html">
+                                <img src="/upload/2018-05-23/33.png" title="MBA备考咨询会" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">MBA备考咨询会</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">一站式了解备考2018年MBA高校政策，MBA提前面试攻略</p>
+                                </div>
+                            </a>
+                            <!--list{app="DuxCms" label="contentList" class_id=52  limit=4}-->
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" title="{$list.title}" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">{$list.title}</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">{$list.description}</p>
+                                </div>
+                            </a>
+                            <!--{/list}-->
+                        </article>
+                    </div>
+                    <div data-tab-panel-4 class="am-tab-panel ">
+                        <article>
+                            <a href="/list-yuanChuangWenZhang.html" class="morePlus">+more</a>
+                            <!--list{app="DuxCms" label="contentList" class_id=18  limit=4}-->
+                            <a href="{$list.aurl}">
+                                <img src="{$list.image}" title="{$list.title}" />
+                                <div class="am-text-truncate">
+                                    <p class="am-margin-top-sm am-margin-bottom-0 am-padding-left-sm am-text-truncate">{$list.title}</p>
+                                    <p class="am-margin-top-0 am-margin-bottom-sm am-text-sm am-padding-left-sm am-text-truncate">{$list.description}</p>
+                                </div>
+                            </a>
+                            <!--{/list}-->
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="nav-hot-list">
+                <article class="am-padding-sm sector-twenty-four sector-bordered">
+                    <h3 class="am-margin-vertical-0 am-padding-bottom-xs">24小时热门</h3>
+
+                    <div class="sector-twenty-four-box">
+                        <!--list{app="DuxCms" label="contentList" class_id="14,16,18,36"  limit=6}-->
+                        <a href="{$list.aurl}">
+                            <img src="{$list.image}" class="am-img-responsive" alt="{$list.title}" />
+                            <p class="am-margin-0 am-padding-left-sm">{$list.title}</p>
+                        </a>
+                        <!--{/list}-->
+                    </div>
+
+                </article>
+            </div>
+        </div>
+        <!--<ul class="am-avg-sm-3 am-margin-top-xl">-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-MBAZiXunHuiJiJiaoYuZhao.html">-->
+                        <!--<p>宣讲会/教育展/活动</p>-->
+                        <!--<p>MBA Info Sessions</p>-->
+                        <!--<img src="/assets/img/22.png" alt="政策动态" title="政策动态" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-MBAChangJianWenTi.html">-->
+                        <!--<p>常见问题</p>-->
+                        <!--<p>FAQ</p>-->
+                        <!--<img src="/assets/img/23.png" alt="报名相关" title="报名相关" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-MBABaoKaoJiMianShiXiangGuan.html">-->
+                        <!--<p>报考·面试相关</p>-->
+                        <!--<p>Register/Interview</p>-->
+                        <!--<img src="/assets/img/24.png" alt="面试相关" title="面试相关" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-MBAZhengCeDongTai.html">-->
+                        <!--<p>政策动态</p>-->
+                        <!--<p>Policy Trends</p>-->
+                        <!--<img src="/assets/img/25.png" alt="政策动态" title="政策动态" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-yuanXiaoXinXi.html">-->
+                        <!--<p>合作院校</p>-->
+                        <!--<p>Partner schools</p>-->
+                        <!--<img src="/assets/img/26.png" alt="合作院校" title="合作院校" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<a href="/list-yuanChuangWenZhang.html">-->
+                        <!--<p>原创文章</p>-->
+                        <!--<p>Original Articles</p>-->
+                        <!--<img src="/assets/img/27.png" alt="原创文章" title="原创文章" />-->
+                    <!--</a>-->
+
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+    </div>
+</section>
+
+<!--#include file="fantastic_block.html"-->
+
+<section class="lessons am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>课程介绍<span class="borderSpan"></span></h2>
+
+        <div class="am-tabs am-margin-top-lg" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-avg-sm-3">
+                <li class="am-active"><a href="#tab1">笔试班</a></li>
+                <li><a href="#tab2">面试班</a></li>
+                <li><a href="#tab3">私人订制班</a></li>
+            </ul>
+
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                    <ul class="am-avg-sm-3">
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【MBA笔试课程】</span><p>查看详情</p></div>
+
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【导学阶段】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-jiChuBan.html">
+                                    <div><span>【基础阶段】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBAxitongban.html">
+                                    <div><span>【系统阶段】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【模考冲刺阶段】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【笔试+面试全程班】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel am-fade" id="tab2">
+                    <ul class="am-avg-sm-3">
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBATiQianMianShi.html">
+                                    <div><span>【面试材料准备】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBATiQianMianShi.html">
+                                    <div><span>【面试综合能力】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBATiQianMianShi.html">
+                                    <div><span>【高校面试特色课程】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+
+                        <li>
+                            &nbsp;
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBATiQianMianShi.html">
+                                    <div><span>【全真模拟演练】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            &nbsp;
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel am-fade" id="tab3">
+                    <ul class="am-avg-sm-3">
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【联考集训班】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【30人小班】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBABiShiKeCheng.html">
+                                    <div><span>【笔试私人定制班】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+
+                        <li>
+                            &nbsp;
+                        </li>
+                        <li>
+                            <article class="innerBox">
+                                <a href="/topic-MBATiQianMianShi.html">
+                                    <div><span>【面试私人定制班】</span><p>查看详情</p></div>
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            &nbsp;
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="index-benefits benefits am-padding-vertical-xl">
+    <div class="am-container am-padding-vertical-sm">
+        <h2>不仅通过联考，更要受益终身<span class="borderSpan"></span></h2>
+
+        <ul class="am-avg-sm-3 am-padding-top-xl">
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-02-24/12.png" class="am-img-responsive am-center show" alt="{$categoryInfo.name}" />
+                    <h4>樊登读书会</h4>
+                    <a href="/topic-fanDengDuShuHui.html" class="checkMore">查看详情</a>
+                </div>
+            </li>
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-02-24/14.png" class="am-img-responsive am-center show" alt="{$categoryInfo.name}" />
+                    <h4>丰富的学生活动</h4>
+                    <a href="/list-huoDong.html" class="checkMore">查看详情</a>
+                </div>
+            </li>
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-02-24/13.png" class="am-img-responsive am-center show" alt="{$categoryInfo.name}" />
+                    <h4>华章微信</h4>
+                    <a href="/list-mbaWeiXinDongTai.html" class="checkMore">查看详情</a>
+                </div>
+            </li>
+        </ul>
+
+        <!--<h2>华章MBA考前辅导专业机构</h2>-->
+        <p class="describe">18年来华章及其遍及全国43个城市的分支机构，已成功引领近10万学子考入理想名校。培养出清华、北大、复旦、上海交大、中山大学岭南学院、人大、 对外经贸、同济、上海财大、西安交大、南开大学、南京大学、浙江大学、厦门大学、中财、中科院、北邮、重庆大学、四川大学、华东理工大学等名校MBA联考状元和MBA面试满分得者。</p>
+        <!--<h4>不仅通过联考，更要受益终身</h4>-->
+    </div>
+</section>
+
+
+<!--#include file="footer_withoutFantastic.html"-->
+
+<!--#include file="ending.html"-->
+
+

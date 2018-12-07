@@ -1,0 +1,3 @@
+<?php exit;?>001564826323d1999e6ccaf9df8946f3b7d94c4ecc70s:382:"a:2:{s:8:"template";s:319:"<div class="form-group"><div class="label"><label>笔试资料</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_writingInfo" name="Fieldset_writingInfo" size="60"  value="/assets/files/bishi/writtenInfo.zip">
+                <div class="input-note"></div></div></div>";s:12:"compile_time";i:1533290323;}";

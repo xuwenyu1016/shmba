@@ -1,0 +1,34 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="am-padding-sm">
+    <h3><span class="leftBrackets">[</span><span class="core">近期活动</span><span class="rightBrackets">]</span><span class="borderBottom"></span></h3>
+    <div class="layerBox">
+        <!--foreach{$pageList as $vo}-->
+        <article class="layer">
+            <a href="{$vo.aurl}">
+                <div class="calender">
+                    <span>{$vo.month}</span><span>{$vo.date}</span>
+                </div>
+                <div class="classContent">
+                    <p class="am-text-truncate">{$vo.title}</p>
+                    <p class="am-text-truncate">{$vo.description}</p>
+                    <span>免费试听</span>
+                </div>
+            </a>
+
+        </article>
+        <!--{/foreach}-->
+        <div class="page">{$page}</div>
+
+    </div>
+</section>
+
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

@@ -1,0 +1,120 @@
+<?php exit;?>001575085181d0b65655369b7a65c9c800f6c5a1ae7ds:7116:"a:2:{s:8:"template";s:7052:"﻿
+<?php $__Template->display("themes/mobile/head"); ?>
+
+<?php $__Template->display("themes/mobile/header"); ?>
+
+
+<img src="/upload/2017-12-08/9.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+<style>
+    .mokaoyilun .bold-green,.mokaoyilun-process .bold-green{color: #01b097;font-size: 24px;font-weight: bold;line-height: 1.2;}
+    .mokaoyilun .green-background{background-color: #01b097;color: white;font-weight: bold;width: 260px;margin-left: auto;margin-right: auto;}
+
+    .mokaoyilun-scene{background-color: #01af97;}
+    .mokaoyilun-scene p{color: white;}
+
+    .mokaoyilun-scene .bold-title,.mokaoyilun-scene-1 .bold-title{font-size: 24px;font-weight: bold;}
+    .mokaoyilun-scene-1 .bold-title{color: #01b097;}
+</style>
+
+<section class="mokaoyilun am-padding-sm">
+
+    <p class="bold-green am-margin-vertical-xs am-text-center">数万考生争相报名!</p>
+    <p class="green-background am-margin-top-xs am-margin-bottom-sm am-padding-horizontal-sm am-text-center">华章MBA模拟考试凭什么这么火？</p>
+
+    <p class="am-text-xs am-margin-vertical-xs">2019年MBA全国联考即将到来，在剩下的三个月时间内，</p>
+    <p class="am-text-xs am-margin-vertical-xs">考生们都想了解其他考生的成绩怎么样？我的竞争力又有多少？</p>
+    <p class="am-text-xs am-margin-vertical-xs">目前的学习状态是否需要调整？</p>
+    <p class="am-text-xs am-margin-vertical-xs">为此，上海华章已连续数年举办了多届万人模拟考试，特聘导师出题，</p>
+    <p class="am-text-xs am-margin-vertical-xs">面向上海地区2019MBA备考学生，针对性挖掘考生备考实力，</p>
+    <p class="am-text-xs am-margin-vertical-xs">分析解决考生遇到问题，冲刺全国联考。</p>
+    <p class="am-text-xs am-margin-vertical-xs">最后一轮模考即将在12月01日举行，上海华章又将引来新一波的模考报名热潮。</p>
+    <p class="am-text-xs am-margin-vertical-xs">到底MBA模拟考试为什么能有如此大的“魅力”，引得数万考生争相报名？</p>
+    <p class="am-text-xs am-margin-vertical-xs">小编采访了数位历届的华章考生，总结得出以下三大缘由。</p>
+
+    <ul class="am-avg-sm-2 am-padding-top-sm">
+        <li class="am-padding-right-sm">
+            <img src="/upload/2017-12-08/2.png" title="华章MBA" alt="华章MBA" class="am-img-responsive am-center"/>
+        </li>
+        <li class="am-padding-left-sm">
+            <img src="/upload/2017-12-08/3.png" title="华章MBA" alt="华章MBA" class="am-img-responsive am-center"/>
+        </li>
+    </ul>
+
+</section>
+
+<section class="mokaoyilun-scene am-padding-sm">
+
+    <p class="bold-title">模拟考试的场景逼真</p>
+    <p class="am-text-sm">上海华章举办的历届万人模考，<br/>力求为考生提供逼真的模考场景、<br/>真实的考试环境。在华章主办的万人模考中，<br/>主要分为报名、确认、考试、答案公布、<br/>成绩查询、解析串讲六个环节，逼真模拟让考生对联考的各个环节有进一步了解，<br/>让每位参与考试的考生提前进入联考的氛围。</p>
+
+</section>
+
+<section class="mokaoyilun-scene-1 am-padding-sm">
+
+    <p class="bold-title">考题覆盖率高</p>
+    <p class="am-text-sm">华章的模拟考试都是由具有多年教学经验的命题导师拟提，袁进、张宇等机工版MBA系列辅导教材主编均参与了模拟考试命题，<br/>研究真题，同时结合历年考试趋势判断，保障试题质量。</p>
+    <p class="am-text-sm">据上届学员透露，四次模拟考试后，考题的覆盖率高，大大提高了考生的复习效率。</p>
+
+</section>
+
+<section class="mokaoyilun-scene am-padding-sm">
+
+    <p class="bold-title">辅导讲解透彻</p>
+    <p class="am-text-sm">每次模拟考试结束后，能有效提高考生的学习方向。<br/>华章导师团队全卷评分，配有详细解析，考后讲评进行延伸学习，<br/>让不同实力的考生有能力延展，积累学习经验技巧。<br/>导师的解析串讲还能为考生在考前发现复习的“漏洞”，有助于他们及时补牢相关知识。</p>
+
+</section>
+
+<section class="mokaoyilun-process am-padding-sm">
+
+    <p class="bold-green am-margin-vertical-xs am-text-center">上海华章万人模考即将开启</p>
+
+    <p class="am-text-sm am-margin-top-sm am-margin-bottom-0">MBA模拟考试除了能及时检验考生个人的实力，还能对学习进行延展，查漏补缺，同时又可以间接了解自己在广大考生中的实力排名，对接下来的联考有更清晰的认识。</p>
+    <p class="am-text-sm am-margin-vertical-0">今年上海华章的万人模考将在10月开启，在两个月的时间内完成四轮模拟考试，分布在长宁、徐汇、浦东、杨浦的四大考场将迎来数以万计的考生。</p>
+
+    <img src="/upload/2017-12-08/7.png" title="华章MBA" alt="华章MBA" class="am-img-responsive am-center am-margin-top-lg"/>
+
+</section>
+
+<div class="dianti-formbox am-padding-sm">
+
+    <form action="<?php echo U('DuxCms/Form/push');?>" method="post" class="formSubmit">
+        <p class="am-margin-vertical-sm am-text-center">预约免费模考</p>
+
+        <div class="formContainer">
+            <input name="name" type="text" placeholder="请输入姓名："/>
+        </div>
+
+        <div class="formContainer">
+            <input name="tel" type="tel" placeholder="请输入手机号："/>
+        </div>
+        <div class="formContainer validate">
+
+            <input name="checkcode" type="text" maxlength="4" size="4" placeholder="请输入验证码：" class="am-margin-right-sm" />
+            <img title="点击刷新" src="<?php echo url('duxcms/ValidateCode/index');?>" align="absbottom" onclick="this.src='<?php echo url('duxcms/ValidateCode/index');?>&'+Math.random();" />
+
+            <input name="time" type="hidden" />
+            <input name="link" type="hidden" />
+            <input name="linkTitle" type="hidden" value="<?php echo $contentInfo["title"];?> <?php echo $categoryInfo["name"];?>，<?php echo $sys["site_title"];?>"/>
+            <input name="browserType" type="hidden" />
+            <input name="ip" type="hidden" />
+
+            <input name="table" type="hidden" value="guestbook">
+            <input name="token" type="hidden" value=' <?php $echoList = service("duxcms","Label","formToken",array( "app"=>"DuxCms", "label"=>"formToken", "table"=>"guestbook"));  echo $echoList; ?> '>
+
+
+
+        </div>
+        <div class="formContainer">
+            <button type="submit">提&nbsp;交</button>
+        </div>
+    </form>
+
+    <!--<img src="/upload/2017-11-04/10.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+
+</div>
+
+<?php $__Template->display("themes/mobile/firmIntroBox"); ?>
+
+<?php $__Template->display("themes/mobile/ending"); ?>
+";s:12:"compile_time";i:1543549181;}";

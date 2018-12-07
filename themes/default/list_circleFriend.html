@@ -1,0 +1,53 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+
+<section class="content-image-gallery am-padding-vertical-lg">
+    <div class="am-container">
+
+        <!--#include file="article-head.html"-->
+
+        <h2 class="title am-padding-top-lg">
+            <!--<span class="num">01</span>-->
+            <span class="numContent">{$categoryInfo.name}</span>
+        </h2>
+
+        <div class="gallery-box am-margin-top-lg">
+            <ul class="am-avg-sm-3 gallery-content am-padding-right-sm">
+                <!--list{app="DuxCms" label="contentList" class_id=88  limit=102}-->
+                <li>
+                    <a href="{$list.aurl}">
+                        <div class="am-center lazy" data-original="{$list.image}" title="{$list.title}"></div>
+                        <p class="am-margin-top-sm am-margin-bottom-0 am-text-sm">{$list.title}</p>
+                    </a>
+
+                </li>
+                <!--{/list}-->
+            </ul>
+
+            <div class="nav-hot-list">
+                <!--#include file="hot_list.html"-->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->
+
+<!--<script>-->
+    <!--$(document).ready(function(){-->
+        <!--$(".sector-title ul li:nth-child(6)").css("opacity",".6");-->
+    <!--})-->
+<!--</script>-->
+

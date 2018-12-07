@@ -1,0 +1,49 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+
+<section class="content-image-gallery am-padding-vertical-lg">
+    <div class="am-container">
+
+        <!--#include file="article-head.html"-->
+
+        <h2 class="title am-padding-top-lg">
+            <!--<span class="num">01</span>-->
+            <span class="numContent">{$categoryInfo.name}</span>
+        </h2>
+
+        <div class="gallery-box am-margin-top-lg">
+            <article>
+                <ul class="am-avg-sm-3 gallery-content am-padding-right-sm">
+                    <!--foreach{$pageList as $vo}-->
+                    <li>
+                        <a href="{$vo.aurl}">
+                            <div class="am-center lazy" data-original="{$vo.image}" title="{$vo.title}"></div>
+                            <p class="am-margin-top-sm am-margin-bottom-0 am-text-sm">{$vo.title}</p>
+                        </a>
+
+                    </li>
+                    <!--{/foreach}-->
+                </ul>
+
+                <div class="page">{$page}</div>
+            </article>
+
+
+            <div class="nav-hot-list">
+                <!--#include file="hot_list.html"-->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

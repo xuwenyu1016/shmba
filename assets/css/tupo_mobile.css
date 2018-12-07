@@ -1,0 +1,36 @@
+.tupo-container h2{font-size: 20px;text-align: center;margin: 10px auto;color: rgb(241,59,71);}
+.tupo-container h2.marginTop0{margin-top: 0;}
+.tupo-container h2 span{font-size: 24px;}
+.tupo-container  .consult{margin: 15px auto;width: 120px;height: 32px;line-height: 32px;color: white;text-align: center;
+    font-size: 16px;background-color: rgb(241,59,71);display: block;border: none;padding: 0;}
+.tupo-intro h2{margin-bottom: 0;margin-top: 15px;}
+.tupo-intro .boxLine{margin: 10px auto;}
+.tupo-intro .boxLine .imgBox{display: inline-block;width: 20%;vertical-align: middle;}
+.tupo-intro .boxLine .imgBox img{width: 85%;}
+.tupo-intro .boxLine .detailsContainer{display: inline-block;vertical-align: middle;width: calc(100% - 22%);
+    width: -webkit-calc(100% - 22%);}
+.tupo-intro .boxLine.odd .detailsContainer{padding-right: 5px;}
+.tupo-intro .boxLine.even .detailsContainer{padding-right: 5px;padding-left: 10px;}
+.tupo-intro .boxLine .detailsContainer p{margin: 5px auto;text-align: justify;font-size: 16px;}
+.tupo-intro .boxLine .detailsContainer p.describe{font-size: 14px;color: #585656;}
+
+.tupo-class .boxLine{margin: 10px auto;}
+.tupo-class .boxLine p{font-size: 14px;text-align: justify;margin: 5px auto;width:90%;}
+
+.tupo-ads .am-table{border-bottom: 1px solid  #ddd;margin: 10px auto;}
+.tupo-ads .am-table>tbody>tr:nth-child(1){font-weight: 700;}
+
+.tupo-ads .am-table>tbody>tr>td{text-align: center;vertical-align: middle;font-size: 12px;border-right: 1px solid  #ddd;padding: 5px 2px;}
+.tupo-ads .am-table>tbody>tr>td:nth-child(1){width: 25%;border-left: 1px solid  #ddd;font-weight: 700;}
+.tupo-ads .am-table>tbody>tr>td:nth-child(2){width: 25%;}
+.tupo-ads .am-table>tbody>tr>td:nth-child(3){width: 25%;}
+.tupo-ads .am-table>tbody>tr>td:nth-child(4){width: 25%;}
+/*.tupo-ads .am-table>tbody>tr>td:nth-child(5){width: 60%;}*/
+.tupo-ads p{margin: 10px auto;font-size: 14px;color: #585656;}
+.tupo-ads p b{font-size: 16px;color: #333;}
+
+.tupo-teacher .am-slider h6{font-size: 16px;font-weight: 600;margin: 5px auto;text-align: center;}
+.tupo-teacher .am-slider h6 span{font-size: 20px;margin-right: 5px;}
+.tupo-teacher .am-slider p{text-align: center;font-size: 14px;margin: 5px auto;}
+.tupo-teacher .am-slider-default{box-shadow: none;}
+.tupo-teacher .am-slider-default .am-control-nav li a.am-active{background-color: rgb(241,59,71);}

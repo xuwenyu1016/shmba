@@ -1,0 +1,57 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2017-12-18/791419b41eb834e553414e230e8e0e45.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+        <h2 class="title">
+            <span class="num">01</span>
+            <span class="numContent">上海<b class="en">MBA</b><b class="red">招生院校</b></span>
+        </h2>
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+
+                <!--foreach{$pageList as $vo}-->
+                <!--if{ $vo['location'] }-->
+                <article class="collegeInfo am-padding-sm">
+                    <div class="logo">
+                        <a href="{$vo.aurl}">
+                            <img src="{$vo.image}" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+                        </a>
+                    </div>
+
+                    <div class="infoDetails">
+                        <a href="{$vo.aurl}">
+                            <h4>{$vo.title}</h4>
+                            <p><span>地区：{$vo.location}</span> <span>创办时间：{$vo.establishTime}</span> <span>学费：{$vo.tuitionRange}</span></p>
+                            <p><span>性质：{$vo.quality}</span> <span>分数线：{$vo.overallPassingScore}</span></p>
+                            <p><span>认证：{$vo.certificate}</span></p>
+                        </a>
+                        <a href="{$vo.aurl}" class="enrollCheck">我的录取几率</a>
+                    </div>
+                </article>
+                <!--{/if}-->
+                <!--{/foreach}-->
+
+                <div class="page">
+                    {$page}
+                </div>
+
+            </div>
+            <div class="formBox">
+                <!--#include file="sideBarForm.html"-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

@@ -1,0 +1,2477 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<style>
+    .box1 .mainTitle{color:rgb(109,109,109); text-align: center;font-weight: 600;font-size: 18px;}
+    .box1 .mainTitle span{display: inline-block;background-color: rgb(163,163,163);color: white;
+        padding: 2px 6px;margin-right: 4px;border-radius: 2px;font-weight: 500;width: 21px;text-align: center;}
+    .box1 .subTitle{color: rgb(163,163,163);}
+
+    /*.box1 ul.banter{width: 88%;margin: 0 auto;display: flex;align-items: center;}*/
+    /*.box1 ul.banter li:nth-child(1){width: 65%;padding:25px 20px 15px 0;}*/
+    /*.box1 ul.banter li:nth-child(2){width: 35%;padding-top: 5px;}*/
+
+    .box1 ul.banter li p{color: rgb(41,41,41);font-size: 14px;}
+    .box1 ul.banter li p:nth-child(2){font-size: 14px;}
+    .box1 ul.banter li img{margin: 0 auto;width: 50%;}
+    /*.box1 .caretDowns{position: absolute;width: 100%;bottom: -19px;}*/
+    /*.box1 span.am-icon-caret-down{display: block;text-align: center;line-height: 1;color: rgb(30,205,151);*/
+    /*font-size: 28px;}*/
+    /*.box1 span.am-icon-caret-down.caretDown2{margin-top: -21px;}*/
+
+    .box1 .infoBox{background-color: rgb(248,248,248);}
+    .box1 .infoBox .innerBox{width: 80%;margin: 0 auto;}
+    .box1 .infoBox .innerBox .infoTitle{color: rgb(41,41,41);}
+    .box1 .infoBox .innerBox .infoTitle span{font-size: 14px;margin-left: 5px;color: rgb(130,130,130); }
+    .box1 .infoBox .innerBox .infoTitle.am-text-danger{color: #db0000;margin: 5px auto;}
+
+    .box1 .infoBox form>ul>li{width: 100%;}
+    .box1 .infoBox form ul li span{display: inline-block;height: 32px;vertical-align: middle;font-size: 14px;width: 60px;}
+    .box1 .infoBox form>ul>li:nth-child(1) input{display: inline-block;width: 100%;margin-bottom: 15px;font-size: 14px;height: 32px;border: 1px solid #767676;}
+    .box1 .infoBox form>ul>li:nth-child(2) input{display: inline-block;width: 100%;margin-bottom: 15px;font-size: 14px;height: 32px;border: 1px solid #767676;}
+    .box1 .infoBox form>ul>li:nth-child(3) input{width: 100px;display: inline-block;height: 32px;font-size: 14px;border: 1px solid #767676;}
+    .box1 .infoBox form>ul>li:nth-child(3) button{width: 125px;display: inline-block;background-color:#0e90d2;
+        color: white;border: none;height: 32px;}
+    /*.box1 .infoBox form>ul>li:nth-child(3){width: 35%;}*/
+    /*.box1 .infoBox ul li:nth-child(3) input.msg{padding: 0 5px;width: 80%;margin: 0 0 0 auto;height: 37px;line-height: 37px;}*/
+    /*.box1 .infoBox ul li:nth-child(3) .msgbk{width: 80%;margin: 0 auto;padding-left: 0;padding-right: 0;text-align: center;}*/
+    .box6 .infoBox .btn1{display: block;margin: 20px auto 15px auto;
+        background-color: rgb(30,205,151);color: white;width: 120px;border: none;height: 32px;line-height: 32px;}
+
+
+    .btn1{display: block;margin: 0 auto;
+        background-color: rgb(30,205,151);color: white;width: 120px;border: none;height: 37px;line-height: 37px;}
+
+    .box2{background-color:rgb(248,248,248);}
+    .box2 .formCaption{width: 90%;margin-left: auto;margin-right: auto;}
+    .box2 .formCaption span{font-size: 14px;margin-left: 4px;}
+    .box2 .questionsBlock p.formTitle span{display: inline-block;vertical-align: middle;}
+    .box2 span.num{width: 24px;height: 24px;text-align: center;font-size: 18px;
+        background-color: white;margin-right: 4px;line-height: 24px;border-radius: 50%;}
+    .box2 hr{border-top: 2px solid #eee;margin: 20px auto;}
+    .box2 .questionsBlock .am-form-group.am-g{padding-bottom: 1rem;padding-left: 25px;}
+    /*.box2 */
+    /*.box2 .am-form-group input{width: -webkit-calc( 50% - 24px );width: calc( 50% - 24px );*/
+    /*margin-right: 0;margin-left: auto;display: inline-block;}*/
+    /*.box2 .am-form-group  span.num{width: 24px;height: 24px;text-align: center;font-size: 18px;visibility: hidden;;*/
+    /*background-color: white;margin-right: 6px;line-height: 24px;border-radius: 50%;display: inline-block;}*/
+
+    .box2 .am-form-group label.am-checkbox, .box2 .am-form-group label.am-radio{margin: 10px auto;}
+    .box2 .am-form-group [class*=am-u-]+[class*=am-u-]:last-child{float: left;}
+    .box2 .am-form-group input.ti3:hover{cursor: auto;}
+
+
+    .box2 .am-g label{padding-left: 0;}
+    .box2 .am-g label input[type=text], .box2 .am-g label select{font-weight: 500;line-height: 32px;height: 32px;width: 100%;font-size: 14px;border: 1px solid #767676;background-color: white;}
+    .box2 .am-g label.textLabel{padding-left: 0;}
+
+    .box3 .formCaption{width: 90%;margin-left: auto;margin-right: auto;}
+    .box3 .formCaption span{display: inline-block;}
+    .box3 .formCaption span.am-caret-right{color: rgb(30,205,151); }
+    .box3 .formCaption span.btn{padding: 5px 25px;background-color: rgb(30,205,151);color: white;text-align: center;margin-left: 10px;}
+
+
+    .box4 .formCaption{width: 90%;margin-left: auto;margin-right: auto;}
+    .box4 .formCaption span{font-size: 14px;margin-left: 4px;}
+    .box4 .questionsBlock p.formTitle span{display: inline-block;vertical-align: middle;}
+    .box4 span.num{width: 24px;height: 24px;text-align: center;font-size: 18px;
+        background-color: white;margin-right: 4px;line-height: 24px;border-radius: 50%;}
+    .box4 hr{border-top: 2px solid #eee;margin: 20px auto;}
+    .box4 .questionsBlock .am-form-group.am-g{padding-bottom: 1rem;padding-left: 25px;}
+    .box4 .am-form-group label.am-radio{margin: 10px auto;padding-top: 0;}
+    .box4 .am-form-group [class*=am-u-]+[class*=am-u-]:last-child{float: left;}
+
+
+
+    .box4 input[type=submit].next{display: block;margin: 0 auto;
+        background-color: rgb(30,205,151);color: white;width: 20%;border: none;height: 37px;line-height: 37px;}
+
+    .box4 .am-g label input[type=text]{font-weight: 500;line-height: 32px;height: 32px;width: 100%;}
+    .box4 .am-g label.textLabel{padding-left: 0;}
+
+
+
+    .am-form-group [class*=am-u-]+[class*=am-u-]:last-child{float: left;}
+    .am-form-group .am-radio+.am-radio{margin-top: 10px;}
+
+    button[type=submit]#submitFormButton{display: block;margin: 0 auto;
+        background-color: rgb(30,205,151);color: white;width: 100px;border: none;height: 37px;line-height: 37px;}
+
+
+</style>
+
+<img src="/upload/2018-02-14/5485763154d015f61bbd7edeee43092e.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<div class="box box1 am-padding-vertical-xl" style="">
+
+    <div class="boxContainer am-container">
+        <h2 class="mainTitle">已有
+            <!--list{app="DuxCms" label="formList" table="guestbook" limit=1}-->{$list.data_id}<!--{/list}-->
+            位考生提交了有效的华章MBA背景测试</h2>
+        <p class="subTitle am-text-center">本测试题的参照数据由1820名2017年上海华章的同学及今年已报考上海华章MBA联考辅导班的同学提供。</p>
+
+        <ul class="am-avg-sm-1 banter">
+            <li><img src="/upload/2018-02-13/396462c819649e1c6067b37c3381aa06.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" /></li>
+            <li>
+                <p class="am-margin-vertical-sm am-text-lg am-text-center"><b>学霸还是学渣？精英还是屌丝？</b></p>
+
+                <p class="am-margin-vertical-sm am-text-justify">截止2017年10月31日，上海MBA报考人数突破10,000人，交大等MBA名校更猛增至2,700人左右。</p>
+
+                <p class="am-margin-vertical-sm am-text-justify">MBA报考看的是背景，看的是潜力。但更看你和你的竞争者的相对成绩，来看看你在报考人群中处在什么位置。</p>
+
+                <p class="am-margin-vertical-sm am-text-justify">1分钟职业背景测试，看你考上名校MBA的几率有多大？</p>
+                <p class="am-margin-vertical-sm am-text-justify">华章老师将为参加背景测试的同学全面评估，推荐适合您的MBA商学院。</p>
+
+            </li>
+
+        </ul>
+
+        <span class="active"></span>
+
+
+
+        <div class="infoBox am-padding-vertical-lg">
+
+            <article class="innerBox">
+                <p class="infoTitle">填写个人信息，继续进行职业背景测试，看您是否能取得名校MBA录取offer。
+                    <span><br/>(*为了保证数据的精准度，请您准确填写您的姓名、电话、和资料信息。)</span></p>
+                <form action="{U('DuxCms/Form/pushTest')}" method="post" role="form" id="myForm">
+                    <ul class="am-avg-sm-1 am-margin-bottom-sm">
+                        <li>
+                            <div class="formContainer">
+                                <!--<span>姓名：</span>-->
+                                <input type="text" name="name" id="name" placeholder="姓名：" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formContainer">
+                                <!--<span>手机号：</span>-->
+                                <input type="tel" name="tel" id="tel" placeholder="手机号：" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formContainer checkcode">
+                                <input type="text" name="verifiy" id="input_verifiy"  class="am-form-field" placeholder="验证码" required/>
+                                <button type="button" class="acquireCode msg" id="msg">获取验证码</button>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <input name="content" type="hidden"/>
+
+                    <input name="time" type="hidden" />
+                    <input name="link" type="hidden" />
+                    <input name="linkTitle" type="hidden" />
+                    <input name="browserType" type="hidden" />
+                    <input name="ip" type="hidden" />
+
+                    <input name="table" type="hidden" value="guestbook">
+                    <input name="token" type="hidden" value=' <!--echo{ app="DuxCms" label="formToken" table="guestbook" }--> '>
+
+
+                    <input id="beijingceshi1" type="button" class="btn1" value="开始测试" onClick="javascript:;"  />
+
+                </form>
+                <p class="infoTitle am-text-danger am-text-sm">*华章老师会选取背景优秀同学进行MBA备考和择校推介。</p>
+            </article>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="box box2 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <p class="am-margin-top-0 am-margin-bottom-sm formCaption"><b>填写测试问卷</b><span>(*为了保证数据准确，请您认真填写)</span></p>
+
+        <hr/>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">1</span>
+                <span>您的大学：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-5 am-success textLabel">
+                    <select class="ti1" name="ti1" >
+                        <option value ="普本" selected>普本</option>
+                        <option value ="专科">专科</option>
+                        <option value ="985/211">985/211</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">2</span>
+                <span>您的专业：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-5 am-success textLabel">
+                    <select class="ti2" name="ti2" >
+                        <option value ="工科" selected>工科</option>
+                        <option value ="理科">理科</option>
+                        <option value ="商科">商科</option>
+                        <option value ="文科">文科</option>
+                        <option value ="其他">其他</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">3</span>
+                <span>您的最高学历：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-5 am-success textLabel">
+                    <select class="ti3" name="ti3" >
+                        <option value ="本科" selected>本科</option>
+                        <option value ="专科">专科</option>
+                        <option value ="硕士">硕士</option>
+                        <option value ="博士">博士</option>
+                    </select>
+
+                </label>
+
+
+
+            </div>
+        </div>
+
+        <!--<div class="questionsBlock">-->
+        <!--<p class="formTitle">-->
+        <!--<span class="num">4</span>-->
+        <!--<span>您的毕业年份：</span>-->
+        <!--</p>-->
+        <!--<div class="am-form-group am-g">-->
+        <!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+        <!--<label class="am-u-sm-5 am-success textLabel">-->
+        <!--<input type="text" class="ti3" name="ti3" placeholder="毕业年份" />-->
+        <!--</label>-->
+
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="questionsBlock">-->
+        <!--<p class="formTitle">-->
+        <!--<span class="num">5</span>-->
+        <!--<span>您的最高学历：</span>-->
+        <!--</p>-->
+        <!--<div class="am-form-group am-g">-->
+        <!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+        <!--<label class="am-u-sm-5 am-success textLabel">-->
+        <!--&lt;!&ndash;<input type="text" class="ti4" name="ti4" placeholder="最高学历" />&ndash;&gt;-->
+        <!--<select type="text" class="ti4" name="ti4" >-->
+        <!--<option value ="专科">专科</option>-->
+        <!--<option value ="本科">本科</option>-->
+        <!--<option value ="硕士">硕士</option>-->
+        <!--<option value ="博士">博士</option>-->
+        <!--</select>-->
+        <!--</label>-->
+
+        <!--</div>-->
+        <!--</div>-->
+
+        <input type="button" class="btn1 btn2" value="下一页" id="beijingceshi2"/>
+
+    </div>
+
+</div>
+
+<div class="box box3 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <p class="figureCaption am-margin-vertical-sm">院校比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container1" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">专业比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container3" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">学历比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container5" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">解读：<br>&emsp;&emsp;MBA申请人应该至少具备大专学历，大专毕业5年，或者本科毕业3年，研究生毕业2年，毕业于知名院校有一定优势。优质的MBA项目希望申请者至少具备5年工作经验，有一定的工作成绩或者成长潜力。</p>
+
+        <input type="button" class="btn1 btn2" value="下一页" id="beijingceshi3"/>
+
+    </div>
+
+</div>
+
+
+<div class="box box4 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <p class="am-margin-top-0 am-margin-bottom-sm formCaption"><b>填写测试问卷</b><span>(*为了保证数据准确，请您认真填写)</span></p>
+        <hr/>
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">4</span>
+                <span>公司的性质：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="外企/合资企业">外企/合资企业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="自主创业">自主创业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="国有企业">国有企业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="民营企业">民营企业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="政府机构">政府机构
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="事业单位">事业单位
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti4" class="ti4" type="radio" value="其他">其他
+                </label>
+
+
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">5</span>
+                <span>您的公司的行业类别：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="金融服务">金融服务
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="咨询">咨询
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="能源/化工">能源/化工
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="科技/新媒体/电信">科技/新媒体/电信
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="房地产开发及装饰">房地产开发及装饰
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="服务行业">服务行业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="非营利组织/政府机构">非营利组织/政府机构
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="制造业">制造业
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="批发/零售/贸易">批发/零售/贸易
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="医药/保健/生物科技">医药/保健/生物科技
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="媒体/娱乐/广告">媒体/娱乐/广告
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti5" type="radio" value="其他">其他
+                </label>
+            </div>
+        </div>
+
+        <!--<div class="questionsBlock">-->
+        <!--<p class="formTitle">-->
+        <!--<span class="num">8</span>-->
+        <!--<span>您所在部门：</span>-->
+        <!--</p>-->
+        <!--<div class="am-form-group am-g">-->
+        <!--<label class="am-u-sm-5 am-success textLabel">-->
+        <!--<input type="text" class="ti7" name="ti7" placeholder="所在部门" />-->
+        <!--</label>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="questionsBlock">-->
+        <!--<p class="formTitle">-->
+        <!--<span class="num">9</span>-->
+        <!--<span>您目前职位：</span>-->
+        <!--</p>-->
+        <!--<div class="am-form-group am-g">-->
+        <!--<label class="am-u-sm-5 am-success textLabel">-->
+        <!--<input type="text" class="ti8" name="ti8" placeholder="目前职位" />-->
+        <!--</label>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <input type="button" class="btn1 btn2" value="下一页" id="beijingceshi4"/>
+
+    </div>
+
+</div>
+
+<div class="box box6 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <p class="figureCaption am-margin-vertical-sm">公司性质比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container7" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">行业类别比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container9" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm narrow">解读：<br/>&emsp;&emsp;报考MBA的学生普遍来自各种企业和各类行业，知名的MBA院校倾向于广泛的吸收生源，来打造一个能反映本土经济生态的多元化学习成长环境，让同学们能够接触到更广泛的知识以及结交到更广泛的人脉来拓展商业机会。所以无论您在高科技行业创业还是服务于传统行业，都能有机会在MBA的学习过程中获取更多商业收益。也有很多同学通过MBA学习后，重新选择了职业发展方向，在上海，比较多MBA学生在学习过程中，会选择进入金融、咨询，或者开始创业。</p>
+
+        <!--<h2 class="am-text-sm am-margin-top-lg">以上是MBA考生的基本背景，请您继续填写您的工作管理经验，我们将为您提供更准确的背景评估，预测您被名校MBA录取的机率。</h2>-->
+
+
+        <input type="button" class="btn1 btn2" value="下一页" id="beijingceshi5"/>
+
+    </div>
+
+</div>
+
+<div class="box box5 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <hr/>
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">6</span>
+                <span>工作职能：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="金融/财务">金融/财务
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="咨询/战略/业务发展">咨询/战略/业务发展
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="综合管理">综合管理
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="政府公务员">政府公务员
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="销售/客户管理">销售/客户管理
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="项目管理">项目管理
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="市场营销/产品管理">市场营销/产品管理
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="供应链管理">供应链管理
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="人事/行政">人事/行政
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="技术研发">技术研发
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti6" class="ti6" type="radio" value="其他">其他
+                </label>
+
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">7</span>
+                <span>您的职位类型：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="高层管理(副总经理以上级)">高层管理(副总经理以上级)
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="高层管理(总助/执行总监级)">高层管理（总助/执行主任/执行总监级）
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="中级管理(总监/部门经理)">中级管理（总监/部门经理）
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="初级管理(主管级/一般经理级)">初级管理（主管级/一般经理级）
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="高级专业人士">高级专业人士
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="初级专业人士">初级专业人士
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="管理培训生">管理培训生
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti7" type="radio" value="其他">其他
+                </label>
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">8</span>
+                <span>您的下属人数（人）：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="0-3人">0-3人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="4-6人">4-6人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="7-10人">7-10人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="11-20人">11-20人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="21-30人">21-30人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="31-50人">31-50人
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti8" type="radio" value="51人以上">51人以上
+                </label>
+
+
+            </div>
+        </div>
+
+        <div class="questionsBlock">
+            <p class="formTitle">
+                <span class="num">9</span>
+                <span>您从事管理工作岗位经验（年）：</span>
+            </p>
+            <div class="am-form-group am-g">
+                <!--<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />-->
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="0-1年">0-1年
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="2-3年">2-3年
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="4-5年">4-5年
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="6-7年">6-7年
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="8-9年">8-9年
+                </label>
+                <label class="am-u-sm-6 am-success am-radio">
+                    <input data-am-ucheck name="ti9" type="radio" value="10年以上">10年以上
+                </label>
+
+            </div>
+        </div>
+
+        <input type="button" class="btn1 btn2" value="下一页" id="beijingceshi6"/>
+
+    </div>
+
+</div>
+
+<div class="box box8 am-padding-vertical-xl" style="display:none">
+    <div class="boxContainer am-container">
+
+        <p class="figureCaption am-margin-vertical-sm">工作职能比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container11" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">职位类型比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container13" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">下属人数比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container15" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm">从事管理工作岗位经验比例：</p>
+
+        <ul class="am-avg-sm-1">
+            <li>
+                <div id="container17" style="width: 100%; height: 350px;overflow-x: scroll;"></div>
+            </li>
+
+        </ul>
+
+        <p class="figureCaption am-margin-vertical-sm narrow">解读：<br/>&emsp;&emsp;成功的职业生涯能够极大提高名校申请的录取率，数据表明具备管理经验的申请者往往可以在面试成绩中拿到更高的分数，从而只需通过笔试的国家线就能获取录取资格，无须在激烈的笔试考试中竞争胜出。此外MBA的学费很贵，在选择时应该考虑到学费的承受能力，优秀的笔试面试成绩能够申请到更多的奖学金，也能更容易的申请到学费贷款。</p>
+
+
+        <div class="infoBox am-padding-vertical-lg">
+
+            <article class="innerBox">
+
+                <form action="{U('DuxCms/Form/pushNoVal')}" method="post" class="formSubmit am-margin-bottom-lg">
+                    <input class="form-control input-sm" id="name2" name="name" type="hidden"  />
+                    <input class="form-control input-sm" id="tel2" name="tel"  type="hidden" />
+
+                    <input name="content" type="hidden" />
+
+                    <input name="time" type="hidden" />
+                    <input name="link" type="hidden" />
+                    <input name="linkTitle" type="hidden" />
+                    <input name="browserType" type="hidden" />
+                    <input name="ip" type="hidden" />
+
+
+                    <input type="hidden" name="token" value="<!--echo{app="DuxCms" label="formToken" table="guestbook"}-->">
+                    <input type="hidden" name="table" value="guestbook">
+                    <button type="submit" id="submitFormButton">点击提交</button>
+
+                </form>
+                <!--<p class="infoTitle am-text-danger am-text-sm">*华章老师会选取背景优秀同学进行MBA备考和择校推介。</p>-->
+            </article>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--<div class="box box7 am-padding-vertical-xl" style="display:none">-->
+<!--<div class="boxContainer am-container">-->
+
+<!--<p class="am-margin-top-0 am-margin-bottom-sm formCaption"><b>填写测试问卷</b><span>(*为了保证数据准确，请您认真填写)</span></p>-->
+<!--<hr/>-->
+
+<!--<div class="questionsBlock">-->
+<!--<p class="formTitle">-->
+<!--<span class="num">13</span>-->
+<!--<span>您的工作职能类型：</span>-->
+<!--</p>-->
+<!--<div class="am-form-group am-g">-->
+<!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="金融/财务">金融/财务-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="咨询/战略/业务发展">咨询/战略/业务发展-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="综合管理">综合管理-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="政府公务员">政府公务员-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="销售/客户管理">销售/客户管理-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="项目管理">项目管理-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="市场营销/产品管理">市场营销/产品管理-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="供应链管理">供应链管理-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="人事/行政">人事/行政-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="技术研发">技术研发-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti12" type="radio" value="其他">其他-->
+<!--</label>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="questionsBlock">-->
+<!--<p class="formTitle">-->
+<!--<span class="num">14</span>-->
+<!--<span>您的职位类型：</span>-->
+<!--</p>-->
+<!--<div class="am-form-group am-g">-->
+<!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="高层管理(副总经理以上级)">高层管理(副总经理以上级)-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="高层管理(总助/执行总监级)">高层管理（总助/执行主任/执行总监级）-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="中级管理(总监/部门经理)">中级管理（总监/部门经理）-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="初级管理(主管级/一般经理级)">初级管理（主管级/一般经理级）-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="高级专业人士">高级专业人士-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="初级专业人士">初级专业人士-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="管理培训生">管理培训生-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti13" type="radio" value="其他">其他-->
+<!--</label>-->
+
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="questionsBlock">-->
+<!--<p class="formTitle">-->
+<!--<span class="num">15</span>-->
+<!--<span>您的下属人数（人）：</span>-->
+<!--</p>-->
+<!--<div class="am-form-group am-g">-->
+<!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="0-3人">0-3人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="4-6人">4-6人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="7-10人">7-10人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="11-20人">11-20人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="21-30人">21-30人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="31-40人">31-40人-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti14" type="radio" value="41人以上">41人以上-->
+<!--</label>-->
+
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="questionsBlock">-->
+<!--<p class="formTitle">-->
+<!--<span class="num">16</span>-->
+<!--<span>您从事管理工作岗位经验（年）：</span>-->
+<!--</p>-->
+<!--<div class="am-form-group am-g">-->
+<!--&lt;!&ndash;<span class="num">1</span><input class="form-control input-sm" name="college"  placeholder="院校名称" type="text" value="" />&ndash;&gt;-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="0-1年">0-1年-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="2-3年">2-3年-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="4-5年">4-5年-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="6-7年">6-7年-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="8-9年">8-9年-->
+<!--</label>-->
+<!--<label class="am-u-sm-6 am-success am-radio">-->
+<!--<input data-am-ucheck name="ti15" type="radio" value="10年以上">10年以上-->
+<!--</label>-->
+
+<!--</div>-->
+<!--</div>-->
+
+
+<!--<input type="button" class="btn1 btn2" value="下一页" />-->
+
+<!--</div>-->
+
+<!--</div>-->
+
+<!--<div class="box box8 am-padding-vertical-xl" style="display:none">-->
+<!--<div class="boxContainer am-container">-->
+
+<!--<p class="figureCaption am-margin-vertical-sm">工作职能比例：</p>-->
+
+<!--<ul class="am-avg-sm-1">-->
+<!--<li>-->
+<!--<div id="container11" style="width: 100%; height: 350px;overflow-x: scroll;"></div>-->
+<!--</li>-->
+
+<!--</ul>-->
+
+<!--<p class="figureCaption am-margin-vertical-sm">职位类型比例：</p>-->
+
+<!--<ul class="am-avg-sm-1">-->
+<!--<li>-->
+<!--<div id="container13" style="width: 100%; height: 350px;overflow-x: scroll;"></div>-->
+<!--</li>-->
+
+<!--</ul>-->
+
+
+<!--<p class="figureCaption am-margin-vertical-sm">下属人数比例：</p>-->
+
+<!--<ul class="am-avg-sm-1">-->
+<!--<li>-->
+<!--<div id="container15" style="width: 100%; height: 350px;overflow-x: scroll;"></div>-->
+<!--</li>-->
+
+<!--</ul>-->
+
+
+<!--<p class="figureCaption am-margin-vertical-sm">从事管理工作岗位经验比例：</p>-->
+
+<!--<ul class="am-avg-sm-1">-->
+<!--<li>-->
+<!--<div id="container17" style="width: 100%; height: 350px;overflow-x: scroll;"></div>-->
+<!--</li>-->
+
+<!--</ul>-->
+<!--<form action="{U('DuxCms/Form/pushNoVal')}" method="post" class="formSubmit am-margin-bottom-lg">-->
+
+<!--<input class="form-control input-sm" id="name2" name="name" type="hidden"  />-->
+<!--<input class="form-control input-sm" id="tel2" name="tel"  type="hidden" />-->
+
+<!--&lt;!&ndash;<input type="button" class="prev" style="float:left" value="&laquo;上一步" />&ndash;&gt;-->
+<!--<input name="time" type="hidden" />-->
+<!--<input name="link" type="hidden" />-->
+<!--<input name="ip" type="hidden" />-->
+
+<!--<input name="content" type="hidden" />-->
+
+<!--<input type="hidden" name="token" value="&lt;!&ndash;echo{app="DuxCms" label="formToken" table="guestbook"}&ndash;&gt;">-->
+<!--<input type="hidden" name="table" value="guestbook">-->
+<!--<button type="submit" id="submitFormButton">点击提交</button>-->
+<!--</form>-->
+<!--</div>-->
+
+<!--</div>-->
+
+
+
+<!--#include file="ending.html"-->
+
+
+<script src="/assets/js/highcharts.js"></script>
+<script src="/assets/js/exporting.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        i=0;
+
+
+        $('input.btn1').click(function(){
+
+            var nameTag = $("#name").val();
+            var phoneTag = $("#tel").val();
+            console.log(nameTag);
+            console.log(phoneTag);
+            $("#name2").val(nameTag);
+            $("#tel2").val(phoneTag);
+
+            if($(this).parents(".box").hasClass("box1")){
+
+                if ($("#myForm input[name='name']").val() == "" || $("#myForm input[name='tel']").val() == "") {
+                    alert("请完整填写信息！");
+                    return false;
+                }
+                else if (!$("#myForm input[name='tel']").val().match(/^(((13[0-9]{1})|(14[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/)) {
+                    alert("请正确填写手机号！");
+                    return false;
+                }
+                else {
+                    var AjaxURL = "{U('DuxCms/Form/pushTest')}";
+                    $.ajax({
+                        type: "POST",
+                        dataType: "json",
+                        url: AjaxURL,
+                        data: $('#myForm').serialize(),
+                        success: function (result) {
+                            var strresult = result;
+//                    console.log(strresult);
+//                    console.log(strresult.status);
+                            if (!strresult.status) {
+                                alert(strresult.info);
+                                return false;
+                            } else {
+                                console.log("已提交");
+                                $('div.box').hide().eq(++i).show();
+                                $('html,body').animate({scrollTop: '0px'});
+                            }
+
+                        },
+                        error: function (data) {
+                            alert("error:" + data.responseText);
+                            return false;
+                        }
+                    });
+
+                }
+
+
+
+            }
+            else if($(this).parents(".box").hasClass("box2")){
+                if( $(".ti1").val() == '' ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else if( $(".ti2").val() == '' ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else if( $(".ti3").val() == '' ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }
+                // else if( $(".ti4").val() == '' ){
+                //     alert('请完整填写该问卷问题');
+                //     $(this).focus();
+                //     return false;
+                // }
+                else{
+                    $('div.box').hide().eq(++i).show();
+                    $('html,body').animate({scrollTop: '0px'});
+                    console.log("box2");
+                }
+            }
+            else if($(this).parents(".box").hasClass("box4")){
+                if( $('input:radio[name="ti4"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    return false;
+                }else if( $('input:radio[name="ti5"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    return false;
+                }else{
+                    $('div.box').hide().eq(++i).show();
+                    $('html,body').animate({scrollTop: '0px'});
+                }
+            }
+            else if($(this).parents(".box").hasClass("box5")){
+                if( $('input:radio[name="ti6"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else if( $('input:radio[name="ti7"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else if( $('input:radio[name="ti8"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else if( $('input:radio[name="ti9"]:checked').val() == null ){
+                    alert('请完整填写该问卷问题');
+                    $(this).focus();
+                    return false;
+                }else{
+                    $('div.box').hide().eq(++i).show();
+                    $('html,body').animate({scrollTop: '0px'});
+                }
+            }
+            else if ($(this).parents(".box").hasClass("box6")) {
+
+                $('div.box').hide().eq(++i).show();
+                $('html,body').animate({scrollTop: '0px'});
+
+            }
+            // else if($(this).parents(".box").hasClass("box10")){
+            //     if( $('input:radio[name="ti10"]:checked').val() == null ){
+            //         alert('请完整填写该问卷问题');
+            //         $(this).focus();
+            //         return false;
+            //     }else if( $('input:radio[name="ti11"]:checked').val() == null ){
+            //         alert('请完整填写该问卷问题');
+            //         $(this).focus();
+            //         return false;
+            //     }else if( $('input:radio[name="ti12"]:checked').val() == null ){
+            //         alert('请完整填写该问卷问题');
+            //         $(this).focus();
+            //         return false;
+            //     }else{
+            //         $('div.box').hide().eq(++i).show();
+            //         $('html,body').animate({scrollTop: '0px'});
+            //     }
+            // }
+            else{
+//                alert("已填选");
+                $('div.box').hide().eq(++i).show();
+                $('html,body').animate({scrollTop: '0px'});
+            }
+
+            var str="";
+
+            // if ($('input[name="ti1"]').val())
+            //     str += '本科院校：' + $('input[name="ti1"]').val();
+
+            if ($('select[name="ti1"]').val())
+                str += '院校：' + $('select[name="ti1"]').val();
+
+            if ($('select[name="ti2"]').val())
+                str += '；专业：' + $('select[name="ti2"]').val();
+
+            // if ($('input[name="ti3"]').val())
+            //     str += '；毕业年分：' + $('input[name="ti3"]').val();
+
+            if ($('select[name="ti3"]').val())
+                str += '；最高学历：' + $('select[name="ti3"]').val();
+
+            if ($('input:radio[name="ti4"]:checked').val())
+                str += '；公司的性质：' + $('input:radio[name="ti4"]:checked').val();
+
+            if ($('input:radio[name="ti5"]:checked').val())
+                str += '；行业类别：' + $('input:radio[name="ti5"]:checked').val();
+
+            if ($('input:radio[name="ti6"]:checked').val())
+                str += '；工作职能：' + $('input:radio[name="ti6"]:checked').val();
+
+            if ($('input:radio[name="ti7"]:checked').val())
+                str += '；职位类型：' + $('input:radio[name="ti7"]:checked').val();
+
+            if ($('input:radio[name="ti8"]:checked').val())
+                str += '；下属人数：' + $('input:radio[name="ti8"]:checked').val();
+
+            if ($('input:radio[name="ti9"]:checked').val())
+                str += '；管理岗位经验：' + $('input:radio[name="ti9"]:checked').val();
+
+            // if ($('input[name="ti10"]').val())
+            //     str += '；自有房产：' + $('input[name="ti10"]').val();
+            //
+            // if ($('input[name="ti11"]').val())
+            //     str += '；年收入：' + $('input[name="ti11"]').val();
+            //
+            // if ($('input[name="ti12"]').val())
+            //     str += '；婚否：' + $('input[name="ti12"]').val();
+
+
+            $("input[name='content']").val(str);
+            console.log(str);
+        });
+    });
+
+    $(function () {
+        //获取短信验证码
+        var validCode = true;
+        $(".msg").click (function () {
+            $.ajax({
+                cache: true,
+                type: "POST",
+                url: "{U('DuxCms/Form/miji_yz')}",
+                data: $('#myForm').serialize(),// 你的formid
+                async: false,
+                error: function (request) {
+                    alert("系统出错请重新获取");
+                },
+                success: function (data) {
+//                    alert(data);
+//                     $("#commonLayout_appcreshi").parent().html(data);
+
+//                    alert("申请成功,立即下载!");
+//                    setTimeout(window.location.href="/mianshimiji/fudan.pdf",3000);
+                }
+            });
+
+            var time = 60;
+            var code = $(this);
+            if (validCode) {
+                validCode = false;
+                code.addClass("msg");
+                var t = setInterval(function () {
+                    time--;
+                    code.html('还剩余(' + time + ')秒');
+                    if (time == 0) {
+                        clearInterval(t);
+                        code.html("重新获取");
+                        validCode = true;
+                        code.removeClass("msg");
+
+                    }
+                }, 1000)
+            }
+        })
+    });
+
+    $(function () {
+        $('#container1').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "院校比例",
+                colorByPoint: true,
+                data: [{
+                    name: "专科",
+                    y: 17.20
+                }, {
+                    name: "985/211",
+                    y: 21.34,
+                    sliced: true,
+                    selected: true
+                },{
+                    name: "普本",
+                    y: 61.46
+                }]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container2').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent'
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '专科',
+                    '985、211',
+                    '普通本科'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '院校比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '院校比例',
+                data: [17.20, 21.34, 61.46]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container3').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 350
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "专业比例",
+                colorByPoint: true,
+                data: [{
+                    name: "工科",
+                    y: 38.66
+                }, {
+                    name: "商科",
+                    y: 12.07,
+                    sliced: true,
+                    selected: true
+                },{
+                    name: "文科",
+                    y: 22.68
+                },{
+                    name: "理科",
+                    y: 21.17
+                },{
+                    name: "其他",
+                    y: 5.42
+                }]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container4').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent'
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '工科',
+                    '商科',
+                    '文科',
+                    '理科',
+                    '其他'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '专业比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '院校比例',
+                data: [38.66, 12.07, 22.68, 21.17, 5.42]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container5').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 300
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "学历比例",
+                colorByPoint: true,
+                data: [{
+                    name: "博士",
+                    y: 0.23
+                }, {
+                    name: "硕士",
+                    y: 3.85,
+                    sliced: true,
+                    selected: true
+                },{
+                    name: "本科",
+                    y: 78.6
+                },{
+                    name: "专科",
+                    y: 17.32
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container6').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '博士',
+                    '硕士',
+                    '本科',
+                    '专科'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '学历比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '学历比例',
+                data: [0.23, 3.85, 78.6, 17.32]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container7').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "公司性质比例",
+                colorByPoint: true,
+                data: [{
+                    name: "外资/合资企业",
+                    y: 37.03,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "自主创业",
+                    y: 4.43
+                }, {
+                    name: "国有企业",
+                    y: 20.64
+                },{
+                    name: "政府机构",
+                    y: 2.27
+                },{
+                    name: "事业单位",
+                    y: 3.32
+                },{
+                    name: "民营企业",
+                    y: 27.81
+                },{
+                    name: "其他",
+                    y: 4.49
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container8').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '外资/合资企业',
+                    '自主创业',
+                    '国有企业',
+                    '民营企业',
+                    '政府机构',
+                    '事业单位',
+                    '其他'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '公司性质比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '公司性质比例',
+                data: [37.03, 4.43, 20.64, 27.81, 2.27, 3.32, 4.49]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container9').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "行业类别比例",
+                colorByPoint: true,
+                data: [{
+                    name: "金融服务",
+                    y: 25.66,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "咨询",
+                    y: 2.97
+                }, {
+                    name: "能源/化工",
+                    y: 7.17
+                },{
+                    name: "科技/新媒体/电信",
+                    y: 24.9
+                },{
+                    name: "非营利组织/政府机构/事业单位",
+                    y: 5.89
+                },{
+                    name: "制造业",
+                    y: 18.19
+                },{
+                    name: "批发/零售/贸易",
+                    y: 2.86
+                },{
+                    name: "医药/保健/生物科技",
+                    y: 3.56
+                },{
+                    name: "媒体/娱乐/广告",
+                    y: 2.33
+                },{
+                    name: "其他",
+                    y: 6.47
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container10').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '金融服务',
+                    '咨询',
+                    '能源/化工',
+                    '科技/新媒体/电信',
+                    '非营利组织/政府机构/事业单位',
+                    '制造业',
+                    '批发/零售/贸易',
+                    '医药/保健/生物科技',
+                    '媒体/娱乐/广告',
+                    '其他'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '行业类别比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '行业类别比例',
+                data: [25.66, 2.97, 7.17, 24.9, 5.89, 18.19, 2.86, 3.56, 2.33, 6.47]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container11').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "工作职能比例",
+                colorByPoint: true,
+                data: [{
+                    name: "金融/财务",
+                    y: 23.03,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "战略/业务发展",
+                    y: 4.26
+                }, {
+                    name: "综合管理",
+                    y: 20.87
+                },{
+                    name: "政府公务员 ",
+                    y: 1.81
+                },{
+                    name: "销售/客户管理",
+                    y: 7.17
+                },{
+                    name: "项目管理 ",
+                    y: 17.32
+                },{
+                    name: "市场营销/产品管理",
+                    y: 6.41
+                },{
+                    name: "供应链管理 ",
+                    y: 2.51
+                },{
+                    name: "人事/行政 ",
+                    y: 2.39
+                },{
+                    name: "技术研发",
+                    y: 11.25
+                },{
+                    name: " 其他",
+                    y: 2.97
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container12').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '金融/财务',
+                    '咨询/战略/业务发展',
+                    '综合管理',
+                    '政府公务员',
+                    '销售/客户管理',
+                    '项目管理',
+                    '市场营销/产品管理',
+                    '供应链管理',
+                    '人事/行政',
+                    '技术研发',
+                    '其他'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '工作职能比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '工作职能比例',
+                data: [23.03, 4.26, 20.87, 1.81, 7.17, 17.32, 6.41, 2.51, 2.39, 11.25, 2.97]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container13').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "职位类型比例",
+                colorByPoint: true,
+                data: [{
+                    name: "高层管理(副总以上级)",
+                    y: 7.06,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "高级管理(总助级)",
+                    y: 12.77
+                }, {
+                    name: "中级管理(总监/经理)",
+                    y: 18.19
+                },{
+                    name: "初级管理",
+                    y: 24.02
+                },{
+                    name: "高级专业人士",
+                    y: 12.24
+                },{
+                    name: "初级专业人士 ",
+                    y: 19.24
+                },{
+                    name: "管理培训生",
+                    y: 1.87
+                },{
+                    name: " 其他",
+                    y: 4.61
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container14').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '高层管理(副总经理以上级)',
+                    '高级管理(总助/执行总监级)',
+                    '中级管理(总监/部门经理)',
+                    '初级管理(主管级/一般经理级)',
+                    '高级专业人士',
+                    '初级专业人士',
+                    '管理培训生',
+                    '其他'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '职位类型比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '职位类型比例',
+                data: [7.06, 12.77, 18.19, 24.02, 12.24, 19.24, 1.87, 4.61]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container15').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "下属人数比例",
+                colorByPoint: true,
+                data: [{
+                    name: "0-3人",
+                    y: 57.90,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "4-6人",
+                    y: 12.3
+                }, {
+                    name: "7-10人",
+                    y: 9.74
+                },{
+                    name: "11-20人",
+                    y: 7.99
+                },{
+                    name: "21-30人",
+                    y: 6.82
+                },{
+                    name: "31-40人",
+                    y: 1.87
+                },{
+                    name: "41人以上",
+                    y: 3.38
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container16').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '0-3人',
+                    '4-6人',
+                    '7-10人',
+                    '11-20人',
+                    '21-30人',
+                    '31-40人',
+                    '41人以上'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '下属人数比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '下属人数比例',
+                data: [57.90, 12.3, 9.74, 7.99, 6.82, 1.87, 3.38]
+
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container17').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "从事管理工作岗位经验比例",
+                colorByPoint: true,
+                data: [{
+                    name: "0-1年",
+                    y: 16.09,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "2-3年",
+                    y: 25.25
+                }, {
+                    name: "4-5年",
+                    y: 24.72
+                },{
+                    name: "6-7年",
+                    y: 11.84
+                },{
+                    name: "8-9年",
+                    y: 7.99
+                },{
+                    name: "10年以上",
+                    y: 14.11
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container18').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '0-1年',
+                    '2-3年',
+                    '4-5年',
+                    '6-7年',
+                    '8-9年',
+                    '10年以上'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '从事管理工作岗位经验比例 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '从事管理工作岗位经验比例',
+                data: [16.09, 25.25, 24.72, 11.84, 7.99, 14.11]
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container19').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "自有房产",
+                colorByPoint: true,
+                data: [{
+                    name: "保密/0套",
+                    y: 25.71,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "1套",
+                    y: 59.53
+                }, {
+                    name: "2套",
+                    y: 10.2
+                },{
+                    name: "3套及以上",
+                    y: 4.55
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container20').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '保密/0套',
+                    '1套',
+                    '2套',
+                    '3套及以上'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '自有房产 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '自有房产',
+                data: [25.71, 59.53, 10.20, 4.55]
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container21').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "年收入",
+                colorByPoint: true,
+                data: [{
+                    name: "0-20万",
+                    y: 11.84,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "20-40万",
+                    y: 61.98
+                }, {
+                    name: "40-100万",
+                    y: 11.78
+                },{
+                    name: "100万以上",
+                    y: 4.55
+                },{
+                    name: "保密",
+                    y: 9.85
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container22').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '0-20万',
+                    '20-40万',
+                    '40-100万',
+                    '100万以上',
+                    '保密'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '年收入 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '年收入',
+                data: [11.84, 61.98, 11.78, 4.55, 9.85]
+            }]
+        });
+    });
+
+
+    $(function () {
+        $('#container23').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie',
+                backgroundColor:'transparent',
+                width: 400
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: "婚否",
+                colorByPoint: true,
+                data: [{
+                    name: "单身",
+                    y: 41.75,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: "已婚",
+                    y: 40.99
+                }, {
+                    name: "保密",
+                    y: 17.26
+                }
+                ]
+            }]
+        });
+    });
+
+    $(function () {
+        $('#container24').highcharts({
+            chart: {
+                type: 'column',
+                backgroundColor:'transparent',
+            },
+            title: {
+                text: ''
+            },
+//            subtitle: {
+//                text: 'Source: WorldClimate.com'
+//            },
+            xAxis: {
+                categories: [
+                    '单身',
+                    '已婚',
+                    '保密'
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '婚否 (%)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: '婚否',
+                data: [41.75, 40.99, 17.26]
+            }]
+        });
+    });
+
+</script>

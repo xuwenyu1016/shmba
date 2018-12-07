@@ -1,0 +1,52 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center am-margin-bottom-sm" alt="{$contentInfo.title}" />
+
+<div class="am-padding-horizontal-sm">
+    <!--#include file="hot_list.html"-->
+</div>
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">{$contentInfo.title}</span>
+</h3>
+
+<section class="content am-padding-horizontal-sm am-padding-bottom-sm">
+    {$contentInfo.content}
+</section>
+
+<ul class="am-avg-sm-2 am-padding-sm bottomIndex">
+    <li>
+        <div class="am-text-truncate am-text-sm"><span>上一篇：</span>
+            <!--if{empty($prevInfo['aurl'])}-->
+            <a class="am-link-muted ">暂无</a>
+            <!--{else}-->
+            <a href="{$prevInfo.aurl}" class="am-link-muted">{$prevInfo.title}</a>
+            <!--{/if}-->
+        </div>
+    </li>
+    <li>
+
+        <div class="am-text-truncate am-text-sm"><span>下一篇：</span>
+            <!--if{empty($nextInfo['aurl'])}-->
+            <a class="am-link-muted am-text-truncate">暂无</a>
+            <!--{else}-->
+            <a href="{$nextInfo.aurl}" class="am-link-muted am-text-truncate">{$nextInfo.title}</a>
+            <!--{/if}-->
+        </div>
+    </li>
+</ul>
+
+<!--<article class="am-padding-sm">-->
+    <!--<p class="am-margin-bottom-xs am-text-sm"><b>留言框：</b></p>-->
+    <!--<div id="comment"></div>-->
+<!--</article>-->
+
+
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

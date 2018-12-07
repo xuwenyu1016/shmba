@@ -1,0 +1,502 @@
+<?php exit;?>0015750802105fd9fb5615f6d985e42f6a05548d9b0as:27319:"a:2:{s:8:"template";s:27254:"﻿<?php $__Template->display("themes/default/head"); ?>
+
+<?php $__Template->display("themes/default/header"); ?>
+
+<section class="banterBox">
+    <!--<img src="/upload/2018-02-24/1.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+    <img src="/upload/2018-11-02/acfb28c6c25e8b59f128185fff76956c.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+</section>
+
+<!--<section class="reading-big-name am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>大咖直播来袭<span class="borderSpan"></span></h2>
+        <ul class="am-avg-sm-2 am-padding-top-lg">
+            <li>
+                <img src="/upload/2018-02-24/30.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+            </li>
+            <li>
+                <h4>第五期线下活动——《关键对话》</h4>
+                <p>4月20日晚上18:00-21:00，樊登读书会上海华章分会第五期线下活动——《关键对话》启动</p>
+                <ul class="am-avg-sm-2">
+                    <li>
+                        <h4>活动时间</h4>
+                        <p>2018年4月20日（周五）</p>
+                        <p>18:00—21:00 </p>
+                    </li>
+                    <li>
+                        <h4>活动地点</h4>
+                        <p>樊登读书会上海华章分会</p>
+                        <p>长宁区定西路1300号2号楼603室</p>
+                    </li>
+                </ul>
+
+                <ul class="am-avg-sm-2">
+                    <li>
+                        <h4>活动主题</h4>
+                        <p>实践课堂：《关键对话》</p>
+                    </li>
+                    <li>
+                        <h4>活动内容</h4>
+                        <p>边看边听边记边悟，为讨论分享做准备；围绕本书主题展开讨论，推选总结讨论内容。</p>
+
+                    </li>
+                </ul>
+
+                <ul class="am-avg-sm-2 bottomUl">
+                    <li>
+                        <p class="grey">已结束 敬请期待下次活动</p>
+                    </li>
+                    <li>
+                        <img src="/upload/2018-04-16/FD16.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                        <p class="am-text-center ">扫码加群</p>
+                    </li>
+                </ul>
+
+
+            </li>
+        </ul>
+    </div>
+</section>-->
+
+<img src="/upload/2018-11-02/7b62473c1bf203c7006c2d1de49d92e7.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+<!--<img src="/upload/2018-11-02/51aff8798cf2aa1c82683387df4c4d4a.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+
+
+<!--<div class="reading-activities am-padding-vertical-xl">-->
+    <!--<div class="am-container">-->
+        <!--<h2>樊登读书会线上活动<span class="borderSpan"></span></h2>-->
+        <!--<ul class="reading-box am-avg-sm-2 am-padding-top-xl">-->
+            <!--<li>-->
+                <!--<div data-am-widget="slider" class="am-slider am-slider-b3" data-am-slider='{controlNav:false,slideshow: true,touch: true,pauseOnHover: true,mousewheel: true}'>-->
+                    <!--<ul class="am-slides">-->
+                        <!--<li>-->
+                            <!--<img src="/upload/2018-04-16/FD8.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<img src="/upload/2018-04-16/FD9.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<img src="/upload/2018-04-16/FD6.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<img src="/upload/2018-04-16/FD7.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+                        <!--</li>-->
+
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li class="">-->
+                <!--<img src="/upload/2018-04-16/FD12.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+                <!--<p class="">樊登读书会上海华章分会是樊登读书会的分会机构，面对上海华章同学以及社会各界朋友提供樊登读书会APP的产品，除“樊登读书会APP会员（会员资格）”以外，还提供“樊登读书会APP企业版（一书一课APP）”、“樊登读书会APP礼品版（书+个人会员资格）”、线下书店、线下活动等多项产品和服务。</p>-->
+                <!--<p class=""><b>如果您对购买会员资格感兴趣，请联系华章分会张老师，我们将为您提供优惠的价格，和更多线下活动的参与机会。</b></p>-->
+
+                <!--<div>-->
+                    <!--<img src="/upload/2018-04-16/FD10.jpg" class="" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<img src="/upload/2018-03-20/583e71380e2d85f2df6f4a94d07745d9.jpg" class="am-margin-left-sm" alt="<?php echo $categoryInfo["name"];?>" />-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+    <!--</div>-->
+<!--</div>-->
+
+<section class="reading-detail am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>樊登读书会-华章分会介绍<span class="borderSpan"></span></h2>
+        <ul class=" am-avg-sm-2 am-padding-top-xl">
+            <li>
+                <img src="/upload/2018-02-24/5.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+            </li>
+            <li class="reading-detail-1">
+                <p>樊登读书会由华章教育集团董事长、央视节目主持人、MBA讲师樊登博士于2013年末发起，旨在运用微信、微博等社交新媒体的力量，同时结合线下读书分享活动，做一个帮中国人重新养成阅读习惯的书籍精华分享社区。樊登读书会的核心产品为樊登读书会app以视频、音频、图文等形式多样的精华解读。精华解读是对一本书籍核心内容的精华提炼，帮助大家用40-50分钟时间快速理解一本书的精华内容，从而达到快速学习和快速成长的目的。</p>
+                <p>2017年樊登读书会——华章分会成立，为华章同学在考入MBA后的继续学习提供了一个新平台，北京、上海、南京等地的樊登读书会华章分会相继举行了线上和线下的读书分享活动。</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="reading-previous am-padding-top-xl">
+    <div class="am-container">
+        <h2>樊登读书会线下活动<span class="borderSpan"></span></h2>
+
+        <ul class="am-avg-sm-3 am-padding-top-lg">
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-04-16/FD13.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                    <p class="am-margin-vertical-sm am-text-center">定制礼盒</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-04-16/FD15.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                    <p class="am-margin-vertical-sm am-text-center">渠道推广</p>
+                </div>
+            </li>
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-02-24/44.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                    <p class="am-margin-vertical-sm am-text-center">线下活动</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="am-padding-vertical-xl reading-news">
+    <div class="am-container">
+        <h2>樊登读书会资讯动态<span class="borderSpan"></span></h2>
+
+        <ul class="am-avg-sm-2 image-block am-margin-top-lg">
+            <?php $listList = service("duxcms","Label","contentList",array( "app"=>"DuxCms", "label"=>"contentList", "class_id"=>67, "sub"=>true, "limit"=>2));  if(is_array($listList)) foreach($listList as $list){ ?>
+            <li>
+                <a href="<?php echo $list["aurl"];?>" class="am-padding-bottom-sm">
+                    <img src="<?php echo $list["image"];?>" class="am-img-responsive am-center" alt="<?php echo $list["title"];?>" />
+                    <p class="am-margin-top-sm am-margin-bottom-xs am-text-truncate am-padding-horizontal-sm"><?php echo $list["title"];?></p>
+                    <p class="am-margin-vertical-xs am-text-sm describe am-padding-horizontal-sm"><?php echo $list["description"];?></p>
+                </a>
+            </li>
+            <?php } ?>
+        </ul>
+
+        <ul class="am-avg-sm-2 news-block am-margin-top-lg">
+            <li>
+                <article>
+                    <p class="news-title am-margin-0 am-padding-left-xs"><b>近期消息</b></p>
+                    <?php $listList = service("duxcms","Label","contentList",array( "app"=>"DuxCms", "label"=>"contentList", "class_id"=>67, "sub"=>true, "limit"=>5));  if(is_array($listList)) foreach($listList as $list){ ?>
+                    <a href="<?php echo $list["aurl"];?>">
+                        <p class="am-margin-vertical-xs am-text-truncate"><span class="dot">·</span><span class="am-text-sm"><?php echo $list["title"];?></span></p>
+                    </a>
+                    <?php } ?>
+                </article>
+
+            </li>
+            <li>
+                <article>
+                    <p class="news-title am-margin-0 am-padding-left-xs"><b>新闻报道</b></p>
+                    <?php $listList = service("duxcms","Label","contentList",array( "app"=>"DuxCms", "label"=>"contentList", "class_id"=>78, "sub"=>true, "limit"=>5));  if(is_array($listList)) foreach($listList as $list){ ?>
+                    <a href="<?php echo $list["aurl"];?>">
+                        <p class="am-margin-vertical-xs am-text-truncate"><span class="dot">·</span><span class="am-text-sm"><?php echo $list["title"];?></span></p>
+                    </a>
+                    <?php } ?>
+                </article>
+
+            </li>
+        </ul>
+    </div>
+</section>
+
+<div class="am-padding-bottom-xl">
+    <div class="am-container">
+        <h2>崔永元：读书教我诚实，生活教我回避<span class="borderSpan"></span></h2>
+        <!--<img src="/upload/2018-04-09/4372c8fa205031b131bd88fb4a0ababf.jpg" class="am-img-responsive am-margin-top-lg" alt="<?php echo $categoryInfo["name"];?>" />-->
+        <iframe frameborder="0" style="width: 92%;height: 500px;" class="am-center am-margin-top-lg"  src="https://v.qq.com/iframe/player.html?vid=y0535e7zeei&tiny=0&auto=0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+
+<!--<section class="reading-intro am-padding-vertical-xl">-->
+    <!--<div class="am-container">-->
+        <!--<h2>樊登读书会上海华章分会<span class="borderSpan"></span></h2>-->
+        <!--<ul class="am-avg-sm-3 am-padding-top-lg am-margin-bottom-sm">-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/2.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<h4>我们的使命</h4>-->
+                    <!--<p>帮助中国3亿人养成阅读习惯。</p>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/3.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<h4>我们的目标</h4>-->
+                    <!--<p>帮助那些没有时间读书、不知道读哪些书<br>和读书效率低的人群每年吸收50本书的精华<br>内容。</p>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/4.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<h4>我们的努力</h4>-->
+                    <!--<p>通过樊登读书会APP、樊登读书会公众号、<br>订阅号等多种移动互联网工具，为会员<br>展示了丰富的线上精华解读。</p>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+        <!--<p class="greyPara">此外，我们深谙“独学而无友则孤陋而寡闻”，因此我们还致力于为会员构建以书会友的线下阅读社区，通过形式多样的书友沙龙活动丰富会员的日常生活，为会员打造全新的生活方式。 </p>-->
+
+    <!--</div>-->
+<!--</section>-->
+
+<!--<div class="reading-present am-padding-vertical-xl">-->
+    <!--<div class="am-container">-->
+        <!--<h2>定制版礼盒<span class="borderSpan"></span></h2>-->
+        <!--<ul class=" am-avg-sm-2 am-padding-top-xl">-->
+            <!--<li>-->
+                <!--<img src="/upload/2018-04-16/FD2.png" class="am-center am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />-->
+            <!--</li>-->
+            <!--<li class="reading-detail-1">-->
+                <!--<p class="am-text-sm am-padding-sm pinkBackground am-margin-vertical-sm">持续1年的时间，不断学习全世界最优秀的商业、管理类书籍。你每天只需要刷牙的时间、路上的时间、运动的时间、睡前的时间，就可以轻松完成对100余本全球最好书籍的学习吸收。</p>-->
+                <!--<p class="am-text-lg am-margin-vertical-sm">礼盒包括</p>-->
+                <!--<p class="am-text-sm am-margin-vertical-sm"><span>·</span> 樊登读书会VIP卡&emsp;&emsp;&emsp;<span>·</span>樊登读书会赠书一本</p>-->
+                <!--<ul class="am-avg-sm-3">-->
+                    <!--<li class="am-padding-xs">-->
+                        <!--<img src="/upload/2018-04-16/FD3.png" class="am-img-responsive am-center">-->
+                    <!--</li>-->
+                    <!--<li class="am-padding-xs">-->
+                        <!--<img src="/upload/2018-04-16/FD4.png" class="am-img-responsive am-center">-->
+                    <!--</li>-->
+                    <!--<li class="am-padding-xs">-->
+                        <!--<img src="/upload/2018-04-16/FD5.png" class="am-img-responsive am-center">-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+    <!--</div>-->
+<!--</div>-->
+
+<section class="reading-book-intro am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>好书推荐<span class="borderSpan"></span></h2>
+
+        <div data-am-widget="slider" class="am-slider am-slider-b3" data-am-slider='controlNav:false,animationLoop: true}'>
+            <ul class="am-slides">
+                <li>
+                    <ul class="am-avg-sm-4">
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/31.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/32.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/33.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/34.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <ul class="am-avg-sm-4">
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/35.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/36.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/37.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/38.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <ul class="am-avg-sm-4">
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/39.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/40.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/41.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="innerBox">
+                                <img src="/upload/2018-02-24/42.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--<section class="reading-previous am-padding-vertical-xl">-->
+    <!--<div class="am-container">-->
+        <!--<h2>往期活动推荐<span class="borderSpan"></span></h2>-->
+
+        <!--<ul class="am-avg-sm-3 am-padding-top-lg">-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/43.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<p class="am-margin-vertical-sm am-text-center">樊登读书会上海华章分会<br>正式启动</p>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/44.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<p class="am-margin-vertical-sm am-text-center">第1期线下活动—<br>《可复制领导力》完美举行</p>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="innerBox">-->
+                    <!--<img src="/upload/2018-02-24/45.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />-->
+                    <!--<p class="am-margin-vertical-sm am-text-center">第2期线下活动—<br>《我们终将遇见爱与孤独》完美举行</p>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</section>-->
+
+<section class="reading-previous bg-grey am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>免费试听<span class="borderSpan"></span></h2>
+
+        <ul class="am-avg-sm-2 am-padding-top-lg">
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-03-20/ce0b602c8bc414ce5334f2f93cf0ec4c.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                    <p class="am-margin-vertical-sm am-text-center">扫码关注公众号，了解更多详情</p>
+
+                </div>
+            </li>
+            <li>
+                <div class="innerBox">
+                    <img src="/upload/2018-03-20/583e71380e2d85f2df6f4a94d07745d9.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                    <p class="am-margin-vertical-sm am-text-center">扫码免费试听7天</p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+<section class="reading-division am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>如何加入樊登读书会--华章分会<span class="borderSpan"></span></h2>
+        <ul class="am-avg-sm-3 am-padding-top-xl">
+            <li>
+                <div class="innerBox am-padding-lg">
+                    <h4>安卓版  365 元</h4>
+                    <p>精华解读是对一本书籍核心内容的精华提炼，帮助大家用40-50分钟时间快速理解一本书的精华内容</p>
+                    <button class="checkMore" data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 230}">立即加入</button>
+                </div>
+            </li>
+            <li>
+                <div class="innerBox am-padding-lg">
+                    <h4>IOS版  388 元</h4>
+                    <p>精华解读是对一本书籍核心内容的精华提炼，帮助大家用40-50分钟时间快速理解一本书的精华内容</p>
+                    <button class="checkMore" data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 230}">立即加入</button>
+                </div>
+            </li>
+            <li>
+                <div class="innerBox am-padding-lg">
+                    <h4>企业版  398 元</h4>
+                    <p>精华解读是对一本书籍核心内容的精华提炼，帮助大家用40-50分钟时间快速理解一本书的精华内容</p>
+                    <button class="checkMore" data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 230}">立即加入</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd">立即加入
+            <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+        </div>
+        <div class="am-modal-bd">
+            <form action="<?php echo U('DuxCms/Form/push');?>" method="post" class="formSubmit am-margin-bottom-lg">
+
+                <div class="formContainer">
+                    <input type="text" name="name" placeholder="姓名："/>
+                </div>
+                <div class="formContainer">
+                    <input type="tel" name="tel" placeholder="手机号："/>
+                </div>
+
+                <div class="formContainer checkcode">
+                    <input name="checkcode" type="text" maxlength="4" size="4" placeholder="验证码：">
+                    <img title="点击刷新" src="<?php echo url('duxcms/ValidateCode/index');?>" align="absbottom" onclick="this.src='<?php echo url('duxcms/ValidateCode/index');?>&'+Math.random();" />
+                </div>
+
+
+                <div class="formContainer">
+                    <input name="time" type="hidden" />
+                    <input name="link" type="hidden" />
+                    <input name="linkTitle" type="hidden" value="<?php echo $contentInfo["title"];?> <?php echo $categoryInfo["name"];?>，<?php echo $sys["site_title"];?>"/>
+                    <input name="browserType" type="hidden" />
+                    <input name="ip" type="hidden" />
+
+                    <input type="hidden" name="token" value="<?php $echoList = service("duxcms","Label","formToken",array( "app"=>"DuxCms", "label"=>"formToken", "table"=>"guestbook"));  echo $echoList; ?>">
+                    <input type="hidden" name="table" value="guestbook">
+                    <button type="submit" id="submitFormButton">点击提交</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<footer class="am-padding-vertical-xl">
+    <div class="am-container">
+        <article class="top am-padding-bottom-sm">
+
+            <div class="leftInfo">
+                <p>当前所在分校：樊登读书会上海华章分会</p>
+                <p>地址：长宁区定西路1300号业余大学3号楼205</p>
+            </div>
+
+
+            <div class="rightInfo">
+                <p>诚招代理</p>
+                <p class="tel"><a href="tel:189-1661-5385" target="_blank" title="诚招代理">189-1661-5385</a></p>
+            </div>
+
+        </article>
+
+        <hr/>
+
+        <article class="bottom am-padding-top-sm">
+            <ul class="am-avg-sm-8">
+                <li><a>华章优势</a></li>
+                <li><a href="/topic-keChengBiao.html" target="_blank" title="本周课程">本周课程</a></li>
+                <li><a href="/list-huaZhangDaoShi.html" title="教师优势" target="_blank">教师优势</a></li>
+                <li><a>适合人群</a></li>
+                <li><a>全国校区</a></li>
+                <li><a href="http://bj.hzmba.com/" target="_blank" title="北京校区">北京校区</a></li>
+                <li><a href="/topic-fanDengDuShuHui.html">樊登读书会</a></li>
+                <li><a href="http://wk.hzmba.net" target="_blank" title="华章网课">华章网课</a></li>
+            </ul>
+
+        </article>
+
+    </div>
+</footer>
+
+<?php $__Template->display("themes/default/ending"); ?>
+";s:12:"compile_time";i:1543544210;}";

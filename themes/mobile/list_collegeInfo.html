@@ -1,0 +1,46 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-01-02/a1cf757141f6debd03a8c34a0fe96b2c.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">上海<b class="en">MBA</b><b class="red">招生院校</b></span>
+</h3>
+
+<section class="collegeList am-padding-horizontal-sm am-padding-bottom-sm">
+
+    <!--foreach{$pageList as $vo}-->
+    <article class="collegeInfo am-padding-sm">
+        <div class="logo">
+            <a href="{$vo.aurl}">
+                <img src="{$vo.image}" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+            </a>
+        </div>
+
+        <div class="infoDetails">
+            <a href="{$vo.aurl}">
+                <h4>{$vo.title}</h4>
+                <p><span>创办时间：{$vo.establishTime}</span></p>
+                <p><span>学费：{$vo.tuitionRange}</span></p>
+                <p><span>分数线：{$vo.overallPassingScore}</span></p>
+                <p><span>认证：{$vo.certificate}</span></p>
+            </a>
+            <a href="/article/jiaoDaAnTaiZhaoShengXinXi.html" class="enrollCheck">我的录取几率</a>
+        </div>
+    </article>
+    <!--{/foreach}-->
+
+    <div class="page">
+        {$page}
+    </div>
+
+</section>
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

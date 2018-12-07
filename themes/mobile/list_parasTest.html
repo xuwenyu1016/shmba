@@ -1,0 +1,56 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">报考资讯</span>
+    <a href="/list-MBABaoKaoXiangGuan.html" class="morePlus">more</a>
+</h3>
+
+<section class="lecture am-padding-horizontal-sm">
+    <div class="layerBox">
+        <!--list{app="Article" label="contentList" class_id=16 order="time desc" limit=5}-->
+        <article class="layer">
+            <a href="{$list.aurl}">
+                <div class="classContent">
+                    <p class="am-text-truncate">{$list.title}</p>
+                    <p class="am-text-truncate">{$list.description}</p>
+                </div>
+            </a>
+
+        </article>
+        <!--{/list}-->
+    </div>
+</section>
+
+<h3 class="noBorder">
+    <span class="num">02</span>
+    <span class="prime">面试资讯</span>
+    <a href="/list-MBABiMianZiXun.html" class="morePlus">more</a>
+</h3>
+
+<section class="lecture am-padding-horizontal-sm am-padding-bottom-sm">
+    <div class="layerBox">
+        <!--list{app="Article" label="contentList" class_id=36 order="time desc" limit=5}-->
+        <article class="layer">
+            <a href="{$list.aurl}">
+                <div class="classContent">
+                    <p class="am-text-truncate">{$list.title}</p>
+                    <p class="am-text-truncate">{$list.description}</p>
+                </div>
+            </a>
+
+        </article>
+        <!--{/list}-->
+    </div>
+</section>
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

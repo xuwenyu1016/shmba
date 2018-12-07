@@ -1,0 +1,85 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<style>
+    .map{width:100%;height:500px;}
+</style>
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+        <h2 class="title">
+            <span class="num">01</span>
+            <span class="numContent">上海<b class="en">华章</b><b class="red">{$categoryInfo.name}</b></span>
+        </h2>
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+                <article class="layerBox">
+                    <!--list{app="Article" label="contentList" class_id=50 expand_id=22 limit="10" order="rank desc"   }-->
+                    <p>{$list.mapName}</p>
+                    <div id="{$list.mapName}" class="map"></div>
+                    <!--{/list}-->
+                </article>
+
+            </div>
+            <div class="formBox">
+                <!--#include file="sideBarForm.html"-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->
+
+
+<!--list{app="Article" label="contentList" class_id=50 expand_id=22 limit="10" order="rank desc"   }-->
+<script type="text/javascript">
+
+    // 百度地图API功能
+    var map = new BMap.Map("{$list.mapName}");
+    var point = new BMap.Point({$list.x},{$list.y});
+    var marker = new BMap.Marker(point);  // 创建标注
+    var cr = new BMap.CopyrightControl({anchor: BMAP_ANCHOR_TOP_RIGHT});   //设置版权控件位置
+    map.addControl(cr); //添加版权控件
+    var bs = map.getBounds();   //返回地图可视区域
+
+    map.addOverlay(marker);              // 将标注添加到地图中
+    map.centerAndZoom(point, 15);
+    //    map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+
+    var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: false
+    });
+    map.addControl(navigationControl);
+
+    var opts = {
+        width : 200,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+        title : "{$list.title}"
+    };
+    var infoWindow = new BMap.InfoWindow("地址：{$list.address}", opts);  // 创建信息窗口对象
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
+    });
+
+    map.addOverlay(marker);              // 将标注添加到地图中
+    var label = new BMap.Label("{$list.title}",{offset:new BMap.Size(20,-1)});
+    marker.setLabel(label);
+
+</script>
+<!--{/list}-->

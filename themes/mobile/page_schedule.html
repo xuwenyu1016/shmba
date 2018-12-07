@@ -1,0 +1,237 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+
+<img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<section class="schedule-table am-padding-sm">
+
+    <h3 class="noBorder">本周课程表</h3>
+
+    <!--徐汇-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">徐汇校区 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "徐汇"   && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+
+    <!--长宁-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">长宁校区 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "长宁"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+
+    <!--浦东-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">浦东校区 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "浦东" && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+
+    <!--杨浦-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">杨浦校区 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "杨浦"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+
+    <!--黄浦-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">黄浦校区 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "黄浦"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+    <!--30人小班-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">30人小班 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "小班"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+
+    <!--VIP班-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">VIP班 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "VIP"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+
+    <!--突破班-->
+    <table class="am-table am-table-bordered am-margin-top-sm">
+        <thead>
+        <tr>
+            <th colspan="8">突破班 本周课程表</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日期</td>
+            <td>讲师</td>
+            <td>内容</td>
+            <td>教室</td>
+        </tr>
+        <!--list{app="DuxCms" label="formList" table="schedule"  limit=50 order="detailedTime asc"}-->
+        <!--if{ $list['xiaoqu'] ==  "突破"  && date('Y-m-d H-i-s',$list['detailedTime']) >=  date("Y-m-d H-i-s") }-->
+        <tr>
+            <td>{$list.date}<br/>{$list.time}</td>
+            <td>{$list.lecturer}</td>
+            <td>{$list.class}-{$list.keyPoints}</td>
+            <td>{$list.address}</td>
+        </tr>
+        <!--{/if}-->
+        <!--{/list}-->
+        </tbody>
+    </table>
+</section>
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

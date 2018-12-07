@@ -1,0 +1,167 @@
+<?php exit;?>001575081908a148c87b8f70c123b89b12153d57db59s:9031:"a:2:{s:8:"template";s:8967:"﻿<?php $__Template->display("themes/default/head"); ?>
+
+<link rel="stylesheet" href="/assets/css/topicStyle.css">
+
+<?php $__Template->display("themes/default/header"); ?>
+
+<section class="banterBox">
+    <img src="/upload/2017-12-02/1.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+    <!--<h1 class="banterTheme"><?php echo $categoryInfo["name"];?></h1>-->
+</section>
+
+<section class="zhuanshenben-intro am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>国家认证学历</h2>
+
+        <p class="green-banter am-center am-margin-vertical-xs am-text-lg">均可用于上海市积分 学信网均可查到信息</p>
+
+        <ul class="am-avg-sm-3">
+           <li>
+               <article>
+
+                   <span class="circle-img">硕士</span>
+
+                   <p class="zhuanshenben-intro-head">硕士研究生</p>
+
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">MBA全日制研究生、</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">在职研究生、</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">入学高校、</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">提高学历、</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">结交人脉，</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">硕士研究生学历+学位、</p>
+                   <p class="am-margin-vertical-0 am-text-center am-text-sm">居住证积100分。</p>
+               </article>
+           </li>
+            <li>
+                <article>
+
+                    <span class="circle-img">本科</span>
+
+                    <p class="zhuanshenben-intro-head">本科+学士学位</p>
+
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">入学门槛低，2.5年毕业，</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">颁发国家承认学信网上可查询的</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">高等本科毕业文凭。</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">本科学历，居住证积60分。</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">本科学历+学士学位，</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">居住证积90分。</p>
+                </article>
+            </li>
+            <li>
+                <article>
+
+                    <span class="circle-img">专科</span>
+
+                    <p class="zhuanshenben-intro-head">大专</p>
+
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">门槛低、学制短、</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">文凭硬、毕业率高、</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">大专学历证书</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">经国家教育部电子注册，</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">可以在中国高等教育学生信息网查询</p>
+                    <p class="am-margin-vertical-0 am-text-center am-text-sm">大专学历，居住证积50分。</p>
+                </article>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="zhuanshenben-control am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>我们的<span>教学管理流程</span></h2>
+        <p class="am-text-center am-margin-vertical-0 am-text-sm">TEACHING PROCESS</p>
+        <img src="/upload/2017-12-02/14.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+        <p class="am-text-center am-margin-vertical-sm am-link-muted">我们的责任是让您一次通过联考！不仅通过联考，更要受益终生！</p>
+
+        <ul class="am-avg-sm-3 am-margin-top-lg">
+            <li>
+                <article>
+                    <div>
+                        <img src="/upload/2017-12-02/2.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                        <p class="am-text-center am-margin-vertical-xs am-text-lg">管</p>
+                    </div>
+
+                    <p class="am-text-center">课程管理</p>
+                    <p class="am-text-center">学员管理</p>
+                    <p class="am-text-center">课后管理</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <div>
+                        <img src="/upload/2017-12-02/3.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                        <span class="am-text-center am-text-lg am-margin-left-xs">学</span>
+                    </div>
+
+                    <div class="am-padding-top-sm">
+                        <img src="/upload/2017-12-02/5.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                        <span class="am-text-center">笔记</span>
+                    </div>
+                    <p class="am-margin-top-xs am-margin-bottom-sm am-text-xs">知识共享，内容沉淀，融会贯通</p>
+
+                    <div class="am-padding-top-sm">
+                        <img src="/upload/2017-12-02/6.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                        <span class="am-text-center">问答</span>
+                    </div>
+                    <p class="am-margin-top-xs am-margin-bottom-sm am-text-xs">专业助教，答疑解惑，实时问答</p>
+
+                    <div class="am-padding-top-sm">
+                        <img src="/upload/2017-12-02/7.png" class="am-img-responsive" alt="<?php echo $categoryInfo["name"];?>" />
+                        <span class="am-text-center">学习计划</span>
+                    </div>
+                    <p class="am-margin-top-xs am-margin-bottom-0 am-text-xs">系统学习，建构知识体系，提高做题能力</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <div>
+                        <img src="/upload/2017-12-02/4.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+                        <p class="am-text-center am-margin-vertical-xs am-text-lg">聊</p>
+                    </div>
+
+                    <p class="am-text-center">小组互助</p>
+                    <p class="am-text-center">语音交流</p>
+                    <p class="am-text-center">私信沟通</p>
+                </article>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="zhuanshenben-teacher am-padding-vertical-xl">
+    <div class="am-container">
+        <h2>上海华章MBA<span>咨询师</span></h2>
+        <p class="am-text-center am-margin-vertical-0 am-text-sm">CONSULTANT</p>
+        <img src="/upload/2017-12-02/14.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+        <p class="am-text-center am-margin-vertical-sm am-link-muted">上海华章老师的一致目标就是<br/>让华章每一位学员都能够考上，进入高校商学院，学习知识，为社会建设贡献自己的力量！</p>
+
+        <ul class="am-avg-sm-4 am-margin-top-lg">
+            <li>
+                <img src="/upload/2017-12-02/8.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <a href="http://p.qiao.baidu.com/cps/chat?siteId=12159402&userId=399307" target="_blank">点击咨询</a>
+            </li>
+            <li>
+                <img src="/upload/2017-12-02/9.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <a href="http://p.qiao.baidu.com/cps/chat?siteId=12159402&userId=399307" target="_blank">点击咨询</a>
+            </li>
+            <li>
+                <img src="/upload/2017-12-02/10.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <a href="http://p.qiao.baidu.com/cps/chat?siteId=12159402&userId=399307" target="_blank">点击咨询</a>
+            </li>
+            <li>
+                <img src="/upload/2017-12-02/11.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                <a href="http://p.qiao.baidu.com/cps/chat?siteId=12159402&userId=399307" target="_blank">点击咨询</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<?php $__Template->display("themes/default/footer_withoutFantastic"); ?>
+
+<?php $__Template->display("themes/default/ending"); ?>";s:12:"compile_time";i:1543545908;}";

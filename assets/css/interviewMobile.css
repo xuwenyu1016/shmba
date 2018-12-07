@@ -1,0 +1,72 @@
+.signUp{display: block;width: 120px;margin: 0 auto;background-color: rgb(30,200,146);border: none;
+    color: white;text-align: center;border-radius: 5px;height: 36px;line-height: 36px;}
+.signUp:hover{cursor: pointer;background-color: rgb(35, 235, 172);}
+
+
+.partOne{position: relative;}
+.partOne .signUpBox{position: absolute;width: 100%;bottom: 20px;}
+
+h2{font-size: 18px;margin: 5px auto;}
+h3{font-size: 16px;margin: 5px auto;}
+h4{font-size: 14px;margin: 5px auto;font-weight: 500;color: #333;}
+h5{font-size: 12px;margin: 5px auto;font-weight: 500;color: rgb(114,114,114);}
+.num{height: 34px;}
+
+.partTwo{background-color: rgb(30,200,146);color: white;}
+.partTwo ul li:nth-child(2){border-left: 1px solid #cdcdcd;padding-left: 10px;}
+.partTwo h4{color: white;}
+.partTwo h4 a.am-link-muted{color: white;}
+
+.line{border-top: 2px solid #1cc188;}
+.line hr{border-top: 6px solid #1cc188;width: 100px;margin: -4px auto 0 auto;}
+
+.partThree .signUp{width: 250px;height: 32px;line-height: 32px;border-radius: 0;}
+
+
+
+.partFour h4{color: rgb(149,149,149);}
+.partFour .am-slider ul li img{width: 70%;margin: 0 auto 10px auto;}
+.partFour .am-slider ul.two li img{width: 94%;margin: 0 auto 10px auto;}
+.partFour .am-slider{box-shadow: none;margin: 10px auto;}
+.partFour .am-slider .am-control-nav{display: none;}
+
+.partFive{background-color: rgb(30,200,146);color: white;}
+.partFive h4{color: white;}
+.partFive .signUp{border: 1px solid white;height: 28px;line-height: 28px;width: 150px;margin-top: 15px;}
+
+.partSix ul{display: flex;align-items: center;}
+.partSix ul li.forty{width: 40%;}
+.partSix ul li.sixty{width: 60%;padding-right: 0;}
+
+/*.partSeven{padding-left: 30px;padding-right: 30px;}*/
+.partSeven .container{text-align: center;
+    margin: 10px auto;padding: 20px 15px 20px 15px;position: relative;background-color:rgb(239, 239, 239);}
+
+.partSeven .container:before {width: 45px;height: 45px;
+    content: '';position: absolute;top:36px;left:-24px;z-index: 3;background-color: white;border-radius: 50%;}
+.partSeven .container:after {width: 45px;height: 45px;
+    content: '';position: absolute;top:36px;right:-24px;z-index: 3;background-color: white;border-radius: 50%;}
+.partSeven .container h4{border-bottom: 1px solid rgb(221,221,221);width: 80%;margin:0 auto;}
+.partSeven .container.greenBgColor{background-color: rgb(30,200,146);color: white;}
+.partSeven .container.greenBgColor h4,.partSeven .container.greenBgColor h5{color: white;}
+
+.partSeven{background-color: #f7f7f7;}
+.partSeven .am-slider{box-shadow: none;}
+.partSeven .am-slider ul li article img{width: 70%;}
+
+.partEight ul{padding-top: 15px;}
+.partEight .container{width: 90%;margin: 0 auto;text-align: center;height: 280px;}
+.partEight .container img{width: 100%;}
+.partEight .container.disabled{background-color: rgb(239, 239, 239);}
+.partEight .container a{color: #333;}
+.partEight .container h3{padding-left: 5px;padding-right: 5px;width: auto;}
+.partEight .container h4{padding-left: 5px;padding-right: 5px;}
+.partEight .container h5{text-align: left;padding-left: 5px;padding-right: 5px;}
+.partEight button{margin: 15px auto;height: 32px;line-height: 32px;}
+.partEight button.disabled{background-color: rgb(165,165,165);}
+
+.interview-student .signUp{width: 250px;height: 32px;line-height: 32px;border-radius: 0;margin-bottom: 1.5rem;}
+.interview-student .am-slider{box-shadow: none;}
+.interview-student .am-slider ul li article{width: 90%;margin: 0 auto;}
+.interview-student .am-slider ul li article img{width: 70%;margin-bottom: .5rem;}
+.interview-student .am-slider ul li article p{margin: 2px auto;}

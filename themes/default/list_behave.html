@@ -1,0 +1,86 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-01-31/6907a2c96fef130f2cdea3ace90ffea5.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="contentContainer am-padding-vertical-lg">
+    <div class="am-container">
+        <h2 class="title am-padding-top-lg">
+            <!--<span class="num">01</span>-->
+            <span class="numContent">{$categoryInfo.name}</span>
+        </h2>
+
+        <div class="collegeBlock">
+
+            <div class="collegeList">
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">01</span>
+                    <span class="numContent">学员感言</span>
+                    <a class="morePlus" href="/list-xueYuanGanYan.html">more</a>
+                </h3>
+                <article class="layerBox am-margin-left-0">
+                    <!--list{app="DuxCms" label="contentList" class_id=28  limit=5}-->
+                    <div class="layer bordered">
+                        <a href="{$list.aurl}">
+                            <div class="classContent am-text-truncate am-padding-0">
+                                <p class="am-padding-bottom-xs"><b>{$list.title}</b></p>
+                                <p class="am-text-truncate">{$list.description}</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--{/list}-->
+                </article>
+
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">02</span>
+                    <span class="numContent">学员采访</span>
+                    <a class="morePlus" href="/list-xueYuanFenXiang.html">more</a>
+                </h3>
+                <article class="layerBox am-margin-left-0">
+                    <!--list{app="DuxCms" label="contentList" class_id=29  limit=5}-->
+                    <div class="layer bordered">
+                        <a href="{$list.aurl}">
+                            <div class="classContent am-text-truncate am-padding-0">
+                                <p class="am-padding-bottom-xs"><b>{$list.title}</b></p>
+                                <p class="am-text-truncate">{$list.description}</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--{/list}-->
+                </article>
+
+                <h3 class="subTitle am-text-left bordered">
+                    <span class="num">03</span>
+                    <span class="numContent">经验分享</span>
+                    <a class="morePlus" href="/list-JingYanFenXiang.html">more</a>
+                </h3>
+                <article class="layerBox am-margin-left-0">
+                    <!--list{app="DuxCms" label="contentList" class_id=30  limit=5}-->
+                    <div class="layer bordered">
+                        <a href="{$list.aurl}">
+                            <div class="classContent am-text-truncate am-padding-0">
+                                <p class="am-padding-bottom-xs"><b>{$list.title}</b></p>
+                                <p class="am-text-truncate">{$list.description}</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--{/list}-->
+                </article>
+            </div>
+            <div class="formBox">
+                <!--#include file="sideBarForm.html"-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->
+
+

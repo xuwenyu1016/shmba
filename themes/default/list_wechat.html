@@ -1,0 +1,29 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<section class="banterBox">
+    <img src="/upload/2018-02-24/16.png" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+    <!--<h1 class="banterTheme">{$categoryInfo.name}</h1>-->
+</section>
+
+<section class="wechat-container">
+    <div class="am-container am-padding-vertical-xl">
+        <!--foreach{$pageList as $vo}-->
+        <article class="wechat-layer">
+            <a href="{$vo.link}" target="_blank">
+                <img src="{$vo.image}" alt="{$vo.title}" />
+                <div class="wechat-content am-padding-horizontal-sm">
+                    <p class="am-text-truncate">{$vo.title}</p>
+                    <p class="am-text-sm">{$vo.description}</p>
+                </div>
+            </a>
+        </article>
+        <!--{/foreach}-->
+        <div class="page">{$page}</div>
+    </div>
+</section>
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->

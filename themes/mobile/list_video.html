@@ -1,0 +1,39 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center" alt="{$contentInfo.title}" />
+
+<section class="contentContainer am-padding-vertical-sm">
+
+        <h3 class="title">
+            <span class="num">01</span>
+            <span class="prime"><b class="en">MBA</b><b class="red">在线试听</b></span>
+        </h3>
+
+        <ul class="am-avg-sm-2">
+            <!--foreach{$pageList as $vo}-->
+            <li>
+                <article class="imgGallery">
+                    <a href="{$vo.aurl}">
+                        <img src="{$vo.image}" class="am-img-responsive" alt="{$vo.title}" />
+                        <p class="am-text-truncate am-text-center am-margin-top-xs">{$vo.title}</p>
+                    </a>
+                </article>
+            </li>
+            <!--{/foreach}-->
+        </ul>
+
+</section>
+
+
+
+
+
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

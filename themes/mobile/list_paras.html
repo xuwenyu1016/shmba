@@ -1,0 +1,35 @@
+
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<img src="/upload/2018-02-13/9d63b75cbcd684503e11b8b4fedf1a27.jpg" class="am-img-responsive am-center" alt="{$categoryInfo.name}" />
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">{$categoryInfo.name}</span>
+</h3>
+
+<section class="lecture am-padding-horizontal-sm am-padding-bottom-sm">
+    <div class="layerBox">
+        <!--foreach{$pageList as $vo}-->
+        <article class="layer">
+            <a href="{$vo.aurl}">
+                <div class="classContent">
+                    <p class="am-text-truncate">{$vo.title}</p>
+                    <p class="am-text-truncate">{$vo.description}</p>
+                </div>
+            </a>
+
+        </article>
+        <!--{/foreach}-->
+
+        <div class="page">{$page}</div>
+    </div>
+</section>
+
+<!--#include file="consultFormBox.html"-->
+
+<!--#include file="firmIntroBox.html"-->
+
+<!--#include file="ending.html"-->

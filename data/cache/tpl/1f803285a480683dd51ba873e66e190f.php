@@ -1,0 +1,300 @@
+<?php exit;?>001575092086ae17dbe354f777d76a99a28af777f9aes:18121:"a:2:{s:8:"template";s:18056:"﻿<?php $__Template->display("themes/default/head"); ?>
+
+<link rel="stylesheet" href="/assets/css/topicStyle.css">
+
+<?php $__Template->display("themes/default/header"); ?>
+
+<section class="banterBox">
+    <img src="/upload/2017-12-03/1.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+    <!--<h1 class="banterTheme"><?php echo $categoryInfo["name"];?></h1>-->
+</section>
+
+
+<section class="zixunshi-container am-padding-vertical-xl">
+    <div class="am-container">
+        <img src="/upload/2017-12-03/7.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+        <p class="am-text-center am-margin-vertical-sm"><b>上海华章老师的一致目标就是让华章每一位学员都能够考上，进入高校，学习知识，为社会建设贡献自己的力量！</b></p>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/8.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">明森</p>
+                        <p class="am-margin-vertical-sm am-text-xs">职位：</p>
+
+                        <p class="am-text-xs am-margin-vertical-0">招生部总监，教务处处长</p>
+                        <p class="am-text-xs am-margin-vertical-0">品牌宣传部负责人</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">2013年入职以来共带领过两届杨浦班学生。班级学生百分九十五考入MBA商学院！当听到学生叫“老师”的时候，就知道自己肩上的责任有多大！肩负起责任，对得起“老师”二字，对每一个学生都一样！</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/9.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">张冬梅</p>
+                        <p class="am-margin-vertical-sm am-text-xs">职位：</p>
+
+                        <p class="am-text-xs am-margin-vertical-0">樊登读书上海华章分会会长</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">目前主要负责樊登读书上海华章分会，华章这个平台不仅仅让你顺利通过联考，更能受益终身；工作是好的修行，而读书是一辈子的事情；我们的选择远远比努力更重要，希望每个人都能遇见更好的自己。</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/10.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">首文锋</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">从事MBA教育培训行业16年，专业知识扎实，擅长MBA，MPA，MEM，MPAcc以及审计，图书情报等管理类考试项目的咨询服务。对专业硕领域有着深入的了解。在未来一年的努力中，希望我的专业知识能为您排忧解难。</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/11.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">黄晓芸</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">长宁班班主任，从事MBA考试辅导至今有6年的时间，本着细心，耐心，一心服务考生的原则，陪伴在大家的考研之路，考研中有任何择校、预面试、笔试准备问题欢迎随时咨询。<br/>&nbsp;</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/12.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">叶红丽</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">霜叶红于二月花，所以更加美丽！从事MBA培训5年，徐汇校区班主任，认真负责，敬业，微笑大使，逗比，这是我，我希望远方的你来到我们华章，来到我的身边，录取通知书就降临到你的身边!<br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/13.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">解进</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">在华章教育从事招生和网课工作5年，也陪同四届MBA考生度过了艰苦而充实的MBA备考路程。不断完善自我，专业，及时，准确的向考生传递面试，择校和备考信息是我不断进步动力，以满足日以高要求，个性化学员的咨询服务需求。</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/14.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">金小利</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">2015年加入华章 ，2016年担任浦东班班主任，2017年担任长宁二班以及远程班主任，2018年将担任远程班和徐汇二班班主任，对于工作和学习我一直坚信“凡流汗播种者，必欢笑收割”，认真服务每位同学，陪伴帮助学生考入理想院校是我所愿！<br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/17.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">段彬</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">2016年加入华章 ，VIP班班主任，在花季和雨季有我们的情谊，我将会24小时严阵以待，同风共雨，陪你一起走过这段美好的备考时光。<br/><br/>&nbsp;</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/16.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">关鹏</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">在华章工作3年了，带过两届学生，去年我带的徐汇二班有两位同学以222分的优异成绩并列成为上海外国语大学MBA的状元。<br/><br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/19.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">杨飞鹏</p>
+
+
+                        <p class="am-text-xs am-margin-vertical-sm">通往罗马不会有林荫小道，总都是坎坷大道！而你若想成功，就要认真对待身边之事！在华章任助教的一年，我用心服务每一位学生，用热情待每一位求知者，并与他们建立深厚的友情！也正是有了华章的平台，才让我有学习、并展示自我的机会。我也坚信，用心沟通，真诚交流，令华章的明天更加辉煌！</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/25.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">杭老师</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">现代管理学之父彼得·德鲁克曾言：“卓有成效的管理者善于用人之长”。作为一门无形的考试，生活工作之余如何严于律己和把控时间高效学习，既是考验各位同学首先如何用己之长，同时也是华章18年来坚守的行业使命。不仅通过联考，更要受益终生，杭老师和上海华章希望与各位同学共同成长。<br/><br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/21.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">夏凯华</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">华章教育苏州园区班班主任夏老师，今年是在华章的第四个年头啦！感恩所有陪伴我成长的学员对我的宽容和理解，也希望自己以后能更专业细致地去服务好每一位学员！天行健，君子以自强不息。与你们共勉！</p>
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+        </ul>
+
+
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/18.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">李欣展</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">数学助教展老师，我在华章3年了，贴心、耐心解答学生问的每一道数学题目，成绩出来后看到学生的喜报，内心是激动和自豪的，不经一番寒彻骨，哪得梅花扑鼻香，付出越多收获越多，勤勤恳恳为学生服务的理念伴随着我在华章的时时刻刻！<br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+            <li class="am-padding-left-xs">
+                <article>
+                    <img src="/upload/2017-12-03/22.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">朱天利</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">自从2013年教师节那天加入了教育行业，就非常热爱这份工作，从事教育行业多年有着丰富的教育咨询经验。服务好每一位学生是我工作中的责任和义务.负责樊登读书会苏州华章分会，同樊登读书会其他书友一样，阅读大使背负着“完善自我，帮助他人”的美好使命。樊登读书会苏州华章分会期待着您的合作，想了解的您可以与我联系。</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+        </ul>
+
+        <ul class="am-avg-sm-2 am-margin-vertical-xl">
+            <li class="am-padding-right-xs">
+                <article>
+                    <img src="/upload/2017-12-03/20.png" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+                    <div>
+                        <p class="name am-margin-vertical-sm">王攀攀</p>
+
+                        <p class="am-text-xs am-margin-vertical-sm">在华章工作7年，有四年的带班经验，每年咨询报名100多位学生，认真、踏实、负责。<br/><br/><br/><br/>&nbsp;</p>
+
+                        <a href="http://p2.qiao.baidu.com/im/index?siteid=12159402&ucid=399307&lastsubid=&from=topic-MBAzixunshi.html" target="_blank">点击咨询</a>
+                    </div>
+                </article>
+            </li>
+
+
+
+        </ul>
+    </div>
+</section>
+
+
+<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd">立即咨询
+            <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+        </div>
+        <div class="am-modal-bd">
+            <form action="<?php echo U('DuxCms/Form/push');?>" method="post" class="formSubmit am-margin-bottom-lg">
+
+                <div class="formContainer">
+                    <input type="text" name="name" placeholder="姓名："/>
+                </div>
+                <div class="formContainer">
+                    <input type="tel" name="tel" placeholder="手机号："/>
+                </div>
+
+                <div class="formContainer checkcode">
+                    <input name="checkcode" type="text" maxlength="4" size="4" placeholder="验证码：">
+                    <img title="点击刷新" src="<?php echo url('duxcms/ValidateCode/index');?>" align="absbottom" onclick="this.src='<?php echo url('duxcms/ValidateCode/index');?>&'+Math.random();" />
+                </div>
+
+
+                <div class="formContainer">
+                    <input name="time" type="hidden" />
+                    <input name="link" type="hidden" />
+                    <input name="linkTitle" type="hidden" value="<?php echo $contentInfo["title"];?> <?php echo $categoryInfo["name"];?>，<?php echo $sys["site_title"];?>"/>
+                    <input name="browserType" type="hidden" />
+                    <input name="ip" type="hidden" />
+
+                    <input type="hidden" name="token" value="<?php $echoList = service("duxcms","Label","formToken",array( "app"=>"DuxCms", "label"=>"formToken", "table"=>"guestbook"));  echo $echoList; ?>">
+                    <input type="hidden" name="table" value="guestbook">
+                    <button type="submit" id="submitFormButton">点击提交</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<?php $__Template->display("themes/default/footer_withoutFantastic"); ?>
+
+<?php $__Template->display("themes/default/ending"); ?>";s:12:"compile_time";i:1543556086;}";

@@ -1,0 +1,37 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+<div class="am-container alert-box">
+
+    <article class="form-alert">
+        <p class="am-margin-vertical-sm am-text-center am-center am-padding-bottom-xs alert-title">您的留言已收到</p>
+        <p class="am-margin-vertical-sm am-padding-top-xs">华章老师将在3个工作日内和您联系。系统即将为您跳转至首页。。。</p>
+        <a class="checkMore margin-top-sm am-center" onclick="history.go(-1)">返回上一页</a>
+    </article>
+
+</div>
+
+
+<!--#include file="footer.html"-->
+
+<!--#include file="ending.html"-->
+
+<script>
+   $(document).ready(function() {
+       function jump(count) {
+           window.setTimeout(function(){
+               count--;
+               if(count > 0) {
+                   $('#num').attr('innerHTML', count);
+                   jump(count);
+               } else {
+                   location.href="/";
+               }
+           }, 1000);
+       }
+       jump(3);
+   });
+    
+</script>
+

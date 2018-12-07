@@ -1,0 +1,203 @@
+<?php exit;?>001575122596ffb2afdb0cfafc9e4f6790f1e01fd947s:8671:"a:2:{s:8:"template";s:8607:"﻿
+<?php $__Template->display("themes/mobile/head"); ?>
+
+<?php $__Template->display("themes/mobile/header"); ?>
+
+<img src="/upload/2018-01-03/7482c23efc251f702d90c0d0a7f2c88d.jpg" class="am-img-responsive am-center" alt="<?php echo $categoryInfo["name"];?>" />
+
+<h3 class="noBorder">
+    <span class="num">01</span>
+    <span class="prime">华章笔试<b class="en">MBA</b><b class="red">梦之队</b></span>
+</h3>
+
+<section class="dreamTeacher am-padding-sm">
+
+    <div class="am-tabs" data-am-tabs>
+
+        <div class="am-tabs-bd">
+            <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                <img src="/upload/2017-12-22/2.png" class="am-img-responsive am-center" alt="华章笔试梦之队" />
+
+                <h4>管理类联考四大导师：数学-袁进</h4>
+                <p>全国受欢迎的MBA联考数学应试导师；MBA联考数学题库奠基人之一；熟知应试精髓与命题规律，连续多年被华章全国数万名学员誉为数学应试之"母"。</p>
+
+                <p class="am-margin-top-lg">著作：</p>
+                <p>机工版MBA系列辅导教材《数学分册》主编；</p>
+                <p>高教版MBA系列辅导教材《数学分册》主编；</p>
+                <p class="consultLine">
+                    <a class="checkMore" href="/article/huaZhangDaoShiYuanJin.html">了解更多详情</a>
+                </p>
+
+            </div>
+            <div class="am-tab-panel am-fade" id="tab2">
+                <img src="/upload/2018-01-09/7da92b1b0fc2a0cc4d5dcd87f592da31.png" class="am-img-responsive am-center" alt="" />
+
+                <h4>管理类联考四大导师：英语-张宇</h4>
+                <p>被誉为：“英语教父”</p>
+                <p>讲课功底深厚，思路清晰，风趣幽默，应试辅导效果佳，往往直击真题，深受MBA考生好评。</p>
+                <p>多次担任管理类联考阅卷组组长。</p>
+
+                <p class="am-margin-top-lg">著作：</p>
+                <p>交大出版社：《英语历年真题详解》主编。</p>
+                <p class="consultLine">
+                    <a class="checkMore" href="/article/huaZhangDaoShiZhangYu.html">了解更多详情</a>
+                </p>
+
+            </div>
+            <div class="am-tab-panel am-fade" id="tab3">
+                <img src="/upload/2018-01-09/84465d3720c9fa7a66211ff39dba0dbf.png" class="am-img-responsive am-center" alt="" />
+
+                <h4>管理类联考四大导师：逻辑-孙勇</h4>
+                <p>复旦大学逻辑学硕士；国内MBA联考逻辑题库奠基人；</p>
+                <p>长期从事MBA联考辅导逻辑部分教学，被誉为“逻辑BOSS”。</p>
+
+                <p class="am-margin-top-lg">著作：</p>
+                <p>机工版MBA/MPA系列辅导教材《逻辑分册》主编；年发行10W册以上！</p>
+                <p class="consultLine">
+                    <a class="checkMore" href="/article/huaZhangDaoShiSunYong.html">了解更多详情</a>
+                </p>
+
+            </div>
+            <div class="am-tab-panel am-fade" id="tab4">
+                <img src="/upload/2018-01-09/a1a9655b4020cb006d44db30a3d4fcfe.png" class="am-img-responsive am-center" alt="华章笔试梦之队" />
+
+                <h4>管理类联考四大导师：写作-陈君华</h4>
+                <p>同济大学哲学系副教授</p>
+                <p>同济大学德国哲学与文化研究所副所长</p>
+                <p>多次担任管理类联考阅卷组组长。</p>
+
+                <p class="am-margin-top-lg">著作：</p>
+                <p>《MBA、MPA、MPAcc管理类联考写作高分应试教程》主编。</p>
+                <p class="consultLine">
+                    <a class="checkMore" href="/article/huaZhangDaoShiChenJunHua.html">了解更多详情</a>
+                </p>
+
+            </div>
+        </div>
+
+        <ul class="am-tabs-nav am-nav am-nav-tabs am-avg-sm-4">
+            <li class="am-active">
+                <a href="#tab1">
+                    <img class="am-img-responsive" src="/upload/2017-12-22/3.png" />
+                    <p class="teacherName">数学 袁进</p>
+                </a>
+            </li>
+            <li>
+                <a href="#tab2">
+                    <img class="am-img-responsive" src="/upload/2017-12-22/4.png" />
+                    <p class="teacherName">英语 张宇</p>
+                </a>
+            </li>
+            <li>
+                <a href="#tab3">
+                    <img class="am-img-responsive" src="/upload/2017-12-22/5.png" />
+                    <p class="teacherName">逻辑 孙勇</p>
+                </a>
+            </li>
+            <li>
+                <a href="#tab4">
+                    <img class="am-img-responsive" src="/upload/2017-12-22/6.png" />
+                    <p class="teacherName">写作 陈君华</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+<section class="teamList">
+    <ul class="am-avg-sm-2 am-padding-horizontal-sm am-padding-top-sm">
+        <?php $listList = service("article","Label","contentList",array( "app"=>"Article", "label"=>"contentList", "class_id"=>7, "expand_id"=>7, "order"=>"time asc", "not_id"=>"22,23,24,25"));  if(is_array($listList)) foreach($listList as $list){ ?>
+        <li>
+            <div class="innerBox">
+                <a href="<?php echo $list["aurl"];?>">
+                    <img src="<?php echo $list["circleImg"];?>" class="am-img-responsive am-center" alt="<?php echo $list["subject"];?>导师-<?php echo $list["title"];?>" />
+                    <p><?php echo $list["subject"];?>导师-<?php echo $list["title"];?></p>
+                </a>
+            </div>
+        </li>
+        <?php } ?>
+
+    </ul>
+</section>
+
+
+
+
+<section class="interviewTeam am-padding-horizontal-sm am-padding-bottom-sm">
+
+    <h3 class="noBorder">
+        <span class="num">02</span>
+        <span class="prime">上海华章<b class="red">面试官团队</b></span>
+    </h3>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">赵华</p>
+            <p class="details">高校MBA面试官、博士生导师、高校商学院教授。</p>
+        </div>
+    </div>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">闻涛</p>
+            <p class="details">高校MBA面试官、知名企业总经理，高校MBA职业导师。</p>
+        </div>
+    </div>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">林江</p>
+            <p class="details">高校MBA面试官、高校MBA职业导师，上市公司战略总监。</p>
+        </div>
+    </div>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">张浩</p>
+            <p class="details">高校MBA面试官，曾经参与多所高校面试政策制定。</p>
+        </div>
+    </div>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">张正</p>
+            <p class="details">高校MBA、EMBA面试官、高校MBA职业导师。</p>
+        </div>
+    </div>
+
+    <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">马超</p>
+            <p class="details">高校MBA面试官，上市公司总经理、高校MBA创业导师。</p>
+        </div>
+    </div>
+
+ <div class="innerBox">
+        <img src="/upload/2017-12-22/9.png" class="am-img-responsive" alt="" />
+
+        <div class="intervieweeIntro">
+            <p class="name">周华</p>
+            <p class="details">高校MBA面试官，高校商学院教授。</p>
+        </div>
+    </div>
+</section>
+
+
+<?php $__Template->display("themes/mobile/consultFormBox"); ?>
+
+<?php $__Template->display("themes/mobile/firmIntroBox"); ?>
+
+<?php $__Template->display("themes/mobile/ending"); ?>";s:12:"compile_time";i:1543586596;}";
